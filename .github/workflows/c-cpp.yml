@@ -1,0 +1,47 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+    - name: MSVC Setup
+      uses: ilammy/msvc-dev-cmd@v1
+      with:
+         arch: amd64
+    - name: Clang cache
+      uses: actions/cache@v5
+      with:
+        path: C:\Program Files\LLVM
+        key: ${{ runner.os }}-llvm-22
+    - name: Clang setup
+      uses: egor-tensin/setup-clang@v2
+      with:
+        version: 22
+        platform: x64
+    - name: SDL Setup
+      uses: libsdl-org/setup-sdl@main
+      id: sdl
+      with:
+        install-windows-dependencies: true
+        version: 3-latest
+        add-to-environment: true
+        build-type: Release
+    - name: build
+      shell: cmd
+      run: |
+        mkdir bin
+        clang-cl -fuse-ld=lld -Xclang "-std=c23" /MD /O2 /W3 -msse4.2 /I"${{ steps.sdl.outputs.prefix }}/include" src/main.c /Fe"bin/webdraft-xyl.exe" /link /INCREMENTAL:NO /LIBPATH:"${{ steps.sdl.outputs.prefix }}/lib" /SUBSYSTEM:WINDOWS SDL3.lib
+        copy "${{ steps.sdl.outputs.prefix }}\bin\SDL3.dll" bin\
+    - name: upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: webdraft-xyl-win64
+        path: bin/
