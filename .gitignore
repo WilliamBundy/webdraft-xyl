@@ -9,7 +9,6 @@
 *.quip
 include/
 lib/
-assets/
 bin/
 pokemon/
 draft.txt

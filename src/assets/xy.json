@@ -1,0 +1,7159 @@
+{
+  "species": {
+    "Bulbasaur": {
+      "name": "Bulbasaur",
+      "number": 0,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        45,
+        49,
+        49,
+        65,
+        65,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ivysaur": {
+      "name": "Ivysaur",
+      "number": 1,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        60,
+        62,
+        63,
+        80,
+        80,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Venusaur": {
+      "name": "Venusaur",
+      "number": 2,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        80,
+        82,
+        83,
+        100,
+        100,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Charmander": {
+      "name": "Charmander",
+      "number": 3,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        39,
+        52,
+        43,
+        60,
+        50,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Charmeleon": {
+      "name": "Charmeleon",
+      "number": 4,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        58,
+        64,
+        58,
+        80,
+        65,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Charizard": {
+      "name": "Charizard",
+      "number": 5,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "stats": [
+        78,
+        84,
+        78,
+        109,
+        85,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Squirtle": {
+      "name": "Squirtle",
+      "number": 6,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        44,
+        48,
+        65,
+        50,
+        64,
+        43
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Wartortle": {
+      "name": "Wartortle",
+      "number": 7,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        59,
+        63,
+        80,
+        65,
+        80,
+        58
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Blastoise": {
+      "name": "Blastoise",
+      "number": 8,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        79,
+        83,
+        100,
+        85,
+        105,
+        78
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Caterpie": {
+      "name": "Caterpie",
+      "number": 9,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        45,
+        30,
+        35,
+        20,
+        20,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Metapod": {
+      "name": "Metapod",
+      "number": 10,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        50,
+        20,
+        55,
+        25,
+        25,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Butterfree": {
+      "name": "Butterfree",
+      "number": 11,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        60,
+        45,
+        50,
+        90,
+        80,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Weedle": {
+      "name": "Weedle",
+      "number": 12,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        40,
+        35,
+        30,
+        20,
+        20,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Kakuna": {
+      "name": "Kakuna",
+      "number": 13,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        45,
+        25,
+        50,
+        25,
+        25,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Beedrill": {
+      "name": "Beedrill",
+      "number": 14,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        65,
+        90,
+        40,
+        45,
+        80,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pidgey": {
+      "name": "Pidgey",
+      "number": 15,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        40,
+        45,
+        40,
+        35,
+        35,
+        56
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pidgeotto": {
+      "name": "Pidgeotto",
+      "number": 16,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        63,
+        60,
+        55,
+        50,
+        50,
+        71
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pidgeot": {
+      "name": "Pidgeot",
+      "number": 17,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        83,
+        80,
+        75,
+        70,
+        70,
+        101
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Spearow": {
+      "name": "Spearow",
+      "number": 18,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        40,
+        60,
+        30,
+        31,
+        31,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Fearow": {
+      "name": "Fearow",
+      "number": 19,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        65,
+        90,
+        65,
+        61,
+        61,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ekans": {
+      "name": "Ekans",
+      "number": 20,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        35,
+        60,
+        44,
+        40,
+        54,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Arbok": {
+      "name": "Arbok",
+      "number": 21,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        60,
+        95,
+        69,
+        65,
+        79,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Nidoran F": {
+      "name": "Nidoran F",
+      "number": 22,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        55,
+        47,
+        52,
+        40,
+        40,
+        41
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Nidorina": {
+      "name": "Nidorina",
+      "number": 23,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        70,
+        62,
+        67,
+        55,
+        55,
+        56
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Nidoqueen": {
+      "name": "Nidoqueen",
+      "number": 24,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "stats": [
+        90,
+        92,
+        87,
+        75,
+        85,
+        76
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Nidoran M": {
+      "name": "Nidoran M",
+      "number": 25,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        46,
+        57,
+        40,
+        40,
+        40,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Nidorino": {
+      "name": "Nidorino",
+      "number": 26,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        61,
+        72,
+        57,
+        55,
+        55,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Nidoking": {
+      "name": "Nidoking",
+      "number": 27,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "stats": [
+        81,
+        102,
+        77,
+        85,
+        75,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Diglett": {
+      "name": "Diglett",
+      "number": 28,
+      "preevolution": "",
+      "types": [
+        "Ground"
+      ],
+      "stats": [
+        10,
+        55,
+        25,
+        35,
+        45,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dugtrio": {
+      "name": "Dugtrio",
+      "number": 29,
+      "preevolution": "",
+      "types": [
+        "Ground"
+      ],
+      "stats": [
+        35,
+        100,
+        50,
+        50,
+        70,
+        120
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Poliwag": {
+      "name": "Poliwag",
+      "number": 30,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        40,
+        50,
+        40,
+        40,
+        40,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Poliwhirl": {
+      "name": "Poliwhirl",
+      "number": 31,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        65,
+        65,
+        65,
+        50,
+        50,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Poliwrath": {
+      "name": "Poliwrath",
+      "number": 32,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Fighting"
+      ],
+      "stats": [
+        90,
+        95,
+        95,
+        70,
+        90,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bellsprout": {
+      "name": "Bellsprout",
+      "number": 33,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        50,
+        75,
+        35,
+        70,
+        30,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Weepinbell": {
+      "name": "Weepinbell",
+      "number": 34,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        65,
+        90,
+        50,
+        85,
+        45,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Victreebel": {
+      "name": "Victreebel",
+      "number": 35,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        80,
+        105,
+        65,
+        100,
+        70,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Slowpoke": {
+      "name": "Slowpoke",
+      "number": 36,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "stats": [
+        90,
+        65,
+        65,
+        40,
+        40,
+        15
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Slowbro": {
+      "name": "Slowbro",
+      "number": 37,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "stats": [
+        95,
+        75,
+        110,
+        100,
+        80,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Farfetch'd": {
+      "name": "Farfetch'd",
+      "number": 38,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        52,
+        90,
+        55,
+        58,
+        62,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Shellder": {
+      "name": "Shellder",
+      "number": 39,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        30,
+        65,
+        100,
+        45,
+        25,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Cloyster": {
+      "name": "Cloyster",
+      "number": 40,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "stats": [
+        50,
+        95,
+        180,
+        85,
+        45,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gastly": {
+      "name": "Gastly",
+      "number": 41,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "stats": [
+        30,
+        35,
+        30,
+        100,
+        35,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Haunter": {
+      "name": "Haunter",
+      "number": 42,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "stats": [
+        45,
+        50,
+        45,
+        115,
+        55,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gengar": {
+      "name": "Gengar",
+      "number": 43,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "stats": [
+        60,
+        65,
+        60,
+        130,
+        75,
+        110
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Onix": {
+      "name": "Onix",
+      "number": 44,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "stats": [
+        35,
+        45,
+        160,
+        30,
+        45,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Exeggcute": {
+      "name": "Exeggcute",
+      "number": 45,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "stats": [
+        60,
+        40,
+        80,
+        60,
+        45,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Exeggutor": {
+      "name": "Exeggutor",
+      "number": 46,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Psychic"
+      ],
+      "stats": [
+        95,
+        95,
+        85,
+        125,
+        75,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Cubone": {
+      "name": "Cubone",
+      "number": 47,
+      "preevolution": "",
+      "types": [
+        "Ground"
+      ],
+      "stats": [
+        50,
+        50,
+        95,
+        40,
+        50,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Marowak": {
+      "name": "Marowak",
+      "number": 48,
+      "preevolution": "",
+      "types": [
+        "Ground"
+      ],
+      "stats": [
+        60,
+        80,
+        110,
+        50,
+        80,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Lickitung": {
+      "name": "Lickitung",
+      "number": 49,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        90,
+        55,
+        75,
+        60,
+        75,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Kangaskhan": {
+      "name": "Kangaskhan",
+      "number": 50,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        105,
+        95,
+        80,
+        40,
+        80,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mr. Mime": {
+      "name": "Mr. Mime",
+      "number": 51,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "stats": [
+        40,
+        45,
+        65,
+        100,
+        120,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Scyther": {
+      "name": "Scyther",
+      "number": 52,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        70,
+        110,
+        80,
+        55,
+        80,
+        105
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Jynx": {
+      "name": "Jynx",
+      "number": 53,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "stats": [
+        65,
+        50,
+        35,
+        115,
+        95,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Tauros": {
+      "name": "Tauros",
+      "number": 54,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        75,
+        100,
+        95,
+        40,
+        70,
+        110
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Lapras": {
+      "name": "Lapras",
+      "number": 55,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Ice"
+      ],
+      "stats": [
+        130,
+        85,
+        80,
+        85,
+        95,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ditto": {
+      "name": "Ditto",
+      "number": 56,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Eevee": {
+      "name": "Eevee",
+      "number": 57,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        55,
+        55,
+        50,
+        45,
+        65,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Vaporeon": {
+      "name": "Vaporeon",
+      "number": 58,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        130,
+        65,
+        60,
+        110,
+        95,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Jolteon": {
+      "name": "Jolteon",
+      "number": 59,
+      "preevolution": "",
+      "types": [
+        "Electric"
+      ],
+      "stats": [
+        65,
+        65,
+        60,
+        110,
+        95,
+        130
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Flareon": {
+      "name": "Flareon",
+      "number": 60,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        65,
+        130,
+        60,
+        95,
+        110,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Aerodactyl": {
+      "name": "Aerodactyl",
+      "number": 61,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "stats": [
+        80,
+        105,
+        65,
+        60,
+        75,
+        130
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Snorlax": {
+      "name": "Snorlax",
+      "number": 62,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        160,
+        110,
+        65,
+        65,
+        110,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Articuno": {
+      "name": "Articuno",
+      "number": 63,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "stats": [
+        90,
+        85,
+        100,
+        95,
+        125,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Zapdos": {
+      "name": "Zapdos",
+      "number": 64,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "stats": [
+        90,
+        90,
+        85,
+        125,
+        90,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Moltres": {
+      "name": "Moltres",
+      "number": 65,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "stats": [
+        90,
+        100,
+        90,
+        125,
+        85,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dratini": {
+      "name": "Dratini",
+      "number": 66,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        41,
+        64,
+        45,
+        50,
+        50,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dragonair": {
+      "name": "Dragonair",
+      "number": 67,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        61,
+        84,
+        65,
+        70,
+        70,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dragonite": {
+      "name": "Dragonite",
+      "number": 68,
+      "preevolution": "",
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "stats": [
+        91,
+        134,
+        95,
+        100,
+        100,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mewtwo": {
+      "name": "Mewtwo",
+      "number": 69,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        106,
+        110,
+        90,
+        154,
+        90,
+        130
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sentret": {
+      "name": "Sentret",
+      "number": 70,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        35,
+        46,
+        34,
+        35,
+        45,
+        20
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Furret": {
+      "name": "Furret",
+      "number": 71,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        85,
+        76,
+        64,
+        45,
+        55,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hoothoot": {
+      "name": "Hoothoot",
+      "number": 72,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        60,
+        30,
+        30,
+        36,
+        56,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Noctowl": {
+      "name": "Noctowl",
+      "number": 73,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        100,
+        50,
+        50,
+        86,
+        96,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ledyba": {
+      "name": "Ledyba",
+      "number": 74,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        40,
+        20,
+        30,
+        40,
+        80,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ledian": {
+      "name": "Ledian",
+      "number": 75,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        55,
+        35,
+        50,
+        55,
+        110,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Spinarak": {
+      "name": "Spinarak",
+      "number": 76,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        40,
+        60,
+        40,
+        40,
+        40,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ariados": {
+      "name": "Ariados",
+      "number": 77,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        70,
+        90,
+        70,
+        60,
+        70,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mareep": {
+      "name": "Mareep",
+      "number": 78,
+      "preevolution": "",
+      "types": [
+        "Electric"
+      ],
+      "stats": [
+        55,
+        40,
+        40,
+        65,
+        45,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Flaaffy": {
+      "name": "Flaaffy",
+      "number": 79,
+      "preevolution": "",
+      "types": [
+        "Electric"
+      ],
+      "stats": [
+        70,
+        55,
+        55,
+        80,
+        60,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ampharos": {
+      "name": "Ampharos",
+      "number": 80,
+      "preevolution": "",
+      "types": [
+        "Electric"
+      ],
+      "stats": [
+        90,
+        75,
+        85,
+        115,
+        90,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sudowoodo": {
+      "name": "Sudowoodo",
+      "number": 81,
+      "preevolution": "",
+      "types": [
+        "Rock"
+      ],
+      "stats": [
+        70,
+        100,
+        115,
+        30,
+        65,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Politoed": {
+      "name": "Politoed",
+      "number": 82,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        90,
+        75,
+        75,
+        90,
+        100,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hoppip": {
+      "name": "Hoppip",
+      "number": 83,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "stats": [
+        35,
+        35,
+        40,
+        35,
+        55,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Skiploom": {
+      "name": "Skiploom",
+      "number": 84,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "stats": [
+        55,
+        45,
+        50,
+        45,
+        65,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Jumpluff": {
+      "name": "Jumpluff",
+      "number": 85,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Flying"
+      ],
+      "stats": [
+        75,
+        55,
+        70,
+        55,
+        95,
+        110
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Yanma": {
+      "name": "Yanma",
+      "number": 86,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        65,
+        65,
+        45,
+        75,
+        45,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Wooper": {
+      "name": "Wooper",
+      "number": 87,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "stats": [
+        55,
+        45,
+        45,
+        25,
+        25,
+        15
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Quagsire": {
+      "name": "Quagsire",
+      "number": 88,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Ground"
+      ],
+      "stats": [
+        95,
+        85,
+        85,
+        65,
+        65,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Espeon": {
+      "name": "Espeon",
+      "number": 89,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        65,
+        65,
+        60,
+        130,
+        95,
+        110
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Umbreon": {
+      "name": "Umbreon",
+      "number": 90,
+      "preevolution": "",
+      "types": [
+        "Dark"
+      ],
+      "stats": [
+        95,
+        65,
+        110,
+        60,
+        130,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Murkrow": {
+      "name": "Murkrow",
+      "number": 91,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "stats": [
+        60,
+        85,
+        42,
+        85,
+        42,
+        91
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Slowking": {
+      "name": "Slowking",
+      "number": 92,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "stats": [
+        95,
+        75,
+        80,
+        100,
+        110,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dunsparce": {
+      "name": "Dunsparce",
+      "number": 93,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        100,
+        70,
+        70,
+        65,
+        65,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gligar": {
+      "name": "Gligar",
+      "number": 94,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Flying"
+      ],
+      "stats": [
+        65,
+        75,
+        105,
+        35,
+        65,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Steelix": {
+      "name": "Steelix",
+      "number": 95,
+      "preevolution": "",
+      "types": [
+        "Steel",
+        "Ground"
+      ],
+      "stats": [
+        75,
+        85,
+        200,
+        55,
+        65,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Snubbull": {
+      "name": "Snubbull",
+      "number": 96,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        60,
+        80,
+        50,
+        40,
+        40,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Granbull": {
+      "name": "Granbull",
+      "number": 97,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        90,
+        120,
+        75,
+        60,
+        60,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Qwilfish": {
+      "name": "Qwilfish",
+      "number": 98,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Poison"
+      ],
+      "stats": [
+        65,
+        95,
+        85,
+        55,
+        55,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Scizor": {
+      "name": "Scizor",
+      "number": 99,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "stats": [
+        70,
+        130,
+        100,
+        55,
+        80,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Shuckle": {
+      "name": "Shuckle",
+      "number": 100,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Rock"
+      ],
+      "stats": [
+        20,
+        10,
+        230,
+        10,
+        230,
+        5
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sneasel": {
+      "name": "Sneasel",
+      "number": 101,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Ice"
+      ],
+      "stats": [
+        55,
+        95,
+        55,
+        35,
+        75,
+        115
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Teddiursa": {
+      "name": "Teddiursa",
+      "number": 102,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        60,
+        80,
+        50,
+        50,
+        50,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ursaring": {
+      "name": "Ursaring",
+      "number": 103,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        90,
+        130,
+        75,
+        75,
+        75,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Swinub": {
+      "name": "Swinub",
+      "number": 104,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Ground"
+      ],
+      "stats": [
+        50,
+        50,
+        40,
+        30,
+        30,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Piloswine": {
+      "name": "Piloswine",
+      "number": 105,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Ground"
+      ],
+      "stats": [
+        100,
+        100,
+        80,
+        60,
+        60,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Remoraid": {
+      "name": "Remoraid",
+      "number": 106,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        35,
+        65,
+        35,
+        65,
+        35,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Octillery": {
+      "name": "Octillery",
+      "number": 107,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        75,
+        105,
+        75,
+        105,
+        75,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Delibird": {
+      "name": "Delibird",
+      "number": 108,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Flying"
+      ],
+      "stats": [
+        45,
+        55,
+        45,
+        65,
+        45,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mantine": {
+      "name": "Mantine",
+      "number": 109,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "stats": [
+        85,
+        40,
+        70,
+        80,
+        140,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Houndour": {
+      "name": "Houndour",
+      "number": 110,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": [
+        45,
+        60,
+        30,
+        80,
+        50,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Houndoom": {
+      "name": "Houndoom",
+      "number": 111,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": [
+        75,
+        90,
+        50,
+        110,
+        80,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Smeargle": {
+      "name": "Smeargle",
+      "number": 112,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        55,
+        20,
+        35,
+        20,
+        45,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Smoochum": {
+      "name": "Smoochum",
+      "number": 113,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Psychic"
+      ],
+      "stats": [
+        45,
+        30,
+        15,
+        85,
+        65,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Miltank": {
+      "name": "Miltank",
+      "number": 114,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        95,
+        80,
+        105,
+        40,
+        70,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Larvitar": {
+      "name": "Larvitar",
+      "number": 115,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "stats": [
+        50,
+        64,
+        50,
+        45,
+        50,
+        41
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pupitar": {
+      "name": "Pupitar",
+      "number": 116,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Ground"
+      ],
+      "stats": [
+        70,
+        84,
+        70,
+        65,
+        70,
+        51
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Tyranitar": {
+      "name": "Tyranitar",
+      "number": 117,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "stats": [
+        100,
+        134,
+        110,
+        95,
+        100,
+        61
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Starly": {
+      "name": "Starly",
+      "number": 118,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        40,
+        55,
+        30,
+        30,
+        30,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Staravia": {
+      "name": "Staravia",
+      "number": 119,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        55,
+        75,
+        50,
+        40,
+        40,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Staraptor": {
+      "name": "Staraptor",
+      "number": 120,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        85,
+        120,
+        70,
+        50,
+        60,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bidoof": {
+      "name": "Bidoof",
+      "number": 121,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        59,
+        45,
+        40,
+        35,
+        40,
+        31
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bibarel": {
+      "name": "Bibarel",
+      "number": 122,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Water"
+      ],
+      "stats": [
+        79,
+        85,
+        60,
+        55,
+        60,
+        71
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Burmy": {
+      "name": "Burmy",
+      "number": 123,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        40,
+        29,
+        45,
+        29,
+        45,
+        36
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Wormadam": {
+      "name": "Wormadam",
+      "number": 124,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "stats": [
+        60,
+        59,
+        85,
+        79,
+        105,
+        36
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mothim": {
+      "name": "Mothim",
+      "number": 125,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        70,
+        94,
+        50,
+        94,
+        50,
+        66
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Combee": {
+      "name": "Combee",
+      "number": 126,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        30,
+        30,
+        42,
+        30,
+        42,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Vespiquen": {
+      "name": "Vespiquen",
+      "number": 127,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        70,
+        80,
+        102,
+        80,
+        102,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pachirisu": {
+      "name": "Pachirisu",
+      "number": 128,
+      "preevolution": "",
+      "types": [
+        "Electric"
+      ],
+      "stats": [
+        60,
+        45,
+        70,
+        45,
+        90,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Buizel": {
+      "name": "Buizel",
+      "number": 129,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        55,
+        65,
+        35,
+        60,
+        30,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Floatzel": {
+      "name": "Floatzel",
+      "number": 130,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        85,
+        105,
+        55,
+        85,
+        50,
+        115
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Drifloon": {
+      "name": "Drifloon",
+      "number": 131,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Flying"
+      ],
+      "stats": [
+        90,
+        50,
+        34,
+        60,
+        44,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Drifblim": {
+      "name": "Drifblim",
+      "number": 132,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Flying"
+      ],
+      "stats": [
+        150,
+        80,
+        44,
+        90,
+        54,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Honchkrow": {
+      "name": "Honchkrow",
+      "number": 133,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "stats": [
+        100,
+        125,
+        52,
+        105,
+        52,
+        71
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Stunky": {
+      "name": "Stunky",
+      "number": 134,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Dark"
+      ],
+      "stats": [
+        63,
+        63,
+        47,
+        41,
+        41,
+        74
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Skuntank": {
+      "name": "Skuntank",
+      "number": 135,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Dark"
+      ],
+      "stats": [
+        103,
+        93,
+        67,
+        71,
+        61,
+        84
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bonsly": {
+      "name": "Bonsly",
+      "number": 136,
+      "preevolution": "",
+      "types": [
+        "Rock"
+      ],
+      "stats": [
+        50,
+        80,
+        95,
+        10,
+        45,
+        10
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mime Jr.": {
+      "name": "Mime Jr.",
+      "number": 137,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "stats": [
+        20,
+        25,
+        45,
+        70,
+        90,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Chatot": {
+      "name": "Chatot",
+      "number": 138,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        76,
+        65,
+        45,
+        92,
+        42,
+        91
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gible": {
+      "name": "Gible",
+      "number": 139,
+      "preevolution": "",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "stats": [
+        58,
+        70,
+        45,
+        40,
+        45,
+        42
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gabite": {
+      "name": "Gabite",
+      "number": 140,
+      "preevolution": "",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "stats": [
+        68,
+        90,
+        65,
+        50,
+        55,
+        82
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Garchomp": {
+      "name": "Garchomp",
+      "number": 141,
+      "preevolution": "",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "stats": [
+        108,
+        130,
+        95,
+        80,
+        85,
+        102
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Munchlax": {
+      "name": "Munchlax",
+      "number": 142,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        135,
+        85,
+        40,
+        40,
+        85,
+        5
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Riolu": {
+      "name": "Riolu",
+      "number": 143,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        40,
+        70,
+        40,
+        35,
+        40,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Lucario": {
+      "name": "Lucario",
+      "number": 144,
+      "preevolution": "",
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "stats": [
+        70,
+        110,
+        70,
+        115,
+        70,
+        90
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hippopotas": {
+      "name": "Hippopotas",
+      "number": 145,
+      "preevolution": "",
+      "types": [
+        "Ground"
+      ],
+      "stats": [
+        68,
+        72,
+        78,
+        38,
+        42,
+        32
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hippowdon": {
+      "name": "Hippowdon",
+      "number": 146,
+      "preevolution": "",
+      "types": [
+        "Ground"
+      ],
+      "stats": [
+        108,
+        112,
+        118,
+        68,
+        72,
+        47
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Skorupi": {
+      "name": "Skorupi",
+      "number": 147,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Bug"
+      ],
+      "stats": [
+        40,
+        50,
+        90,
+        30,
+        55,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Drapion": {
+      "name": "Drapion",
+      "number": 148,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Dark"
+      ],
+      "stats": [
+        70,
+        90,
+        110,
+        60,
+        75,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Croagunk": {
+      "name": "Croagunk",
+      "number": 149,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Fighting"
+      ],
+      "stats": [
+        48,
+        61,
+        40,
+        61,
+        40,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Toxicroak": {
+      "name": "Toxicroak",
+      "number": 150,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Fighting"
+      ],
+      "stats": [
+        83,
+        106,
+        65,
+        86,
+        65,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Carnivine": {
+      "name": "Carnivine",
+      "number": 151,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        74,
+        100,
+        72,
+        90,
+        72,
+        46
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mantyke": {
+      "name": "Mantyke",
+      "number": 152,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "stats": [
+        45,
+        20,
+        50,
+        60,
+        120,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Snover": {
+      "name": "Snover",
+      "number": 153,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Ice"
+      ],
+      "stats": [
+        60,
+        62,
+        50,
+        62,
+        60,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Abomasnow": {
+      "name": "Abomasnow",
+      "number": 154,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Ice"
+      ],
+      "stats": [
+        90,
+        92,
+        75,
+        92,
+        85,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Weavile": {
+      "name": "Weavile",
+      "number": 155,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Ice"
+      ],
+      "stats": [
+        70,
+        120,
+        65,
+        45,
+        85,
+        125
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Lickilicky": {
+      "name": "Lickilicky",
+      "number": 156,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        110,
+        85,
+        95,
+        80,
+        95,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Yanmega": {
+      "name": "Yanmega",
+      "number": 157,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        86,
+        76,
+        86,
+        116,
+        56,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Leafeon": {
+      "name": "Leafeon",
+      "number": 158,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        65,
+        110,
+        130,
+        60,
+        65,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Glaceon": {
+      "name": "Glaceon",
+      "number": 159,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        65,
+        60,
+        110,
+        130,
+        95,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gliscor": {
+      "name": "Gliscor",
+      "number": 160,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Flying"
+      ],
+      "stats": [
+        75,
+        95,
+        125,
+        45,
+        75,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mamoswine": {
+      "name": "Mamoswine",
+      "number": 161,
+      "preevolution": "",
+      "types": [
+        "Ice",
+        "Ground"
+      ],
+      "stats": [
+        110,
+        130,
+        80,
+        70,
+        60,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gallade": {
+      "name": "Gallade",
+      "number": 162,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Fighting"
+      ],
+      "stats": [
+        68,
+        125,
+        65,
+        65,
+        115,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Rotom": {
+      "name": "Rotom",
+      "number": 163,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Ghost"
+      ],
+      "stats": [
+        50,
+        50,
+        77,
+        95,
+        77,
+        91
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Patrat": {
+      "name": "Patrat",
+      "number": 164,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        45,
+        55,
+        39,
+        35,
+        39,
+        42
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Watchog": {
+      "name": "Watchog",
+      "number": 165,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        60,
+        85,
+        69,
+        60,
+        69,
+        77
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Purrloin": {
+      "name": "Purrloin",
+      "number": 166,
+      "preevolution": "",
+      "types": [
+        "Dark"
+      ],
+      "stats": [
+        41,
+        50,
+        37,
+        50,
+        37,
+        66
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Liepard": {
+      "name": "Liepard",
+      "number": 167,
+      "preevolution": "",
+      "types": [
+        "Dark"
+      ],
+      "stats": [
+        64,
+        88,
+        50,
+        88,
+        50,
+        106
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pansage": {
+      "name": "Pansage",
+      "number": 168,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        50,
+        53,
+        48,
+        53,
+        48,
+        64
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Simisage": {
+      "name": "Simisage",
+      "number": 169,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        75,
+        98,
+        63,
+        98,
+        63,
+        101
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pansear": {
+      "name": "Pansear",
+      "number": 170,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        50,
+        53,
+        48,
+        53,
+        48,
+        64
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Simisear": {
+      "name": "Simisear",
+      "number": 171,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        75,
+        98,
+        63,
+        98,
+        63,
+        101
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Panpour": {
+      "name": "Panpour",
+      "number": 172,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        50,
+        53,
+        48,
+        53,
+        48,
+        64
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Simipour": {
+      "name": "Simipour",
+      "number": 173,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        75,
+        98,
+        63,
+        98,
+        63,
+        101
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Roggenrola": {
+      "name": "Roggenrola",
+      "number": 174,
+      "preevolution": "",
+      "types": [
+        "Rock"
+      ],
+      "stats": [
+        55,
+        75,
+        85,
+        25,
+        25,
+        15
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Boldore": {
+      "name": "Boldore",
+      "number": 175,
+      "preevolution": "",
+      "types": [
+        "Rock"
+      ],
+      "stats": [
+        70,
+        105,
+        105,
+        50,
+        40,
+        20
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gigalith": {
+      "name": "Gigalith",
+      "number": 176,
+      "preevolution": "",
+      "types": [
+        "Rock"
+      ],
+      "stats": [
+        85,
+        135,
+        130,
+        60,
+        80,
+        25
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Woobat": {
+      "name": "Woobat",
+      "number": 177,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "stats": [
+        65,
+        45,
+        43,
+        55,
+        43,
+        72
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Swoobat": {
+      "name": "Swoobat",
+      "number": 178,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "stats": [
+        67,
+        57,
+        55,
+        77,
+        55,
+        114
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Audino": {
+      "name": "Audino",
+      "number": 179,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        103,
+        60,
+        86,
+        60,
+        86,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Timburr": {
+      "name": "Timburr",
+      "number": 180,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        75,
+        80,
+        55,
+        25,
+        35,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gurdurr": {
+      "name": "Gurdurr",
+      "number": 181,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        85,
+        105,
+        85,
+        40,
+        50,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Conkeldurr": {
+      "name": "Conkeldurr",
+      "number": 182,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        105,
+        140,
+        95,
+        55,
+        65,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Throh": {
+      "name": "Throh",
+      "number": 183,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        120,
+        100,
+        85,
+        30,
+        85,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sawk": {
+      "name": "Sawk",
+      "number": 184,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        75,
+        125,
+        75,
+        30,
+        75,
+        85
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Venipede": {
+      "name": "Venipede",
+      "number": 185,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        30,
+        45,
+        59,
+        30,
+        39,
+        57
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Whirlipede": {
+      "name": "Whirlipede",
+      "number": 186,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        40,
+        55,
+        99,
+        40,
+        79,
+        47
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Scolipede": {
+      "name": "Scolipede",
+      "number": 187,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "stats": [
+        60,
+        100,
+        89,
+        55,
+        69,
+        112
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Basculin": {
+      "name": "Basculin",
+      "number": 188,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        70,
+        92,
+        65,
+        80,
+        55,
+        98
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sandile": {
+      "name": "Sandile",
+      "number": 189,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "stats": [
+        50,
+        72,
+        35,
+        35,
+        35,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Krokorok": {
+      "name": "Krokorok",
+      "number": 190,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "stats": [
+        60,
+        82,
+        45,
+        45,
+        45,
+        74
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Krookodile": {
+      "name": "Krookodile",
+      "number": 191,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Dark"
+      ],
+      "stats": [
+        95,
+        117,
+        80,
+        65,
+        70,
+        92
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dwebble": {
+      "name": "Dwebble",
+      "number": 192,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Rock"
+      ],
+      "stats": [
+        50,
+        65,
+        85,
+        35,
+        35,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Crustle": {
+      "name": "Crustle",
+      "number": 193,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Rock"
+      ],
+      "stats": [
+        70,
+        105,
+        125,
+        65,
+        75,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Scraggy": {
+      "name": "Scraggy",
+      "number": 194,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "stats": [
+        50,
+        75,
+        70,
+        35,
+        70,
+        48
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Scrafty": {
+      "name": "Scrafty",
+      "number": 195,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Fighting"
+      ],
+      "stats": [
+        65,
+        90,
+        115,
+        45,
+        115,
+        58
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sigilyph": {
+      "name": "Sigilyph",
+      "number": 196,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Flying"
+      ],
+      "stats": [
+        72,
+        58,
+        80,
+        103,
+        80,
+        97
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Trubbish": {
+      "name": "Trubbish",
+      "number": 197,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        50,
+        50,
+        62,
+        40,
+        62,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Garbodor": {
+      "name": "Garbodor",
+      "number": 198,
+      "preevolution": "",
+      "types": [
+        "Poison"
+      ],
+      "stats": [
+        80,
+        95,
+        82,
+        60,
+        82,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Zorua": {
+      "name": "Zorua",
+      "number": 199,
+      "preevolution": "",
+      "types": [
+        "Dark"
+      ],
+      "stats": [
+        40,
+        65,
+        40,
+        80,
+        40,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Zoroark": {
+      "name": "Zoroark",
+      "number": 200,
+      "preevolution": "",
+      "types": [
+        "Dark"
+      ],
+      "stats": [
+        60,
+        105,
+        60,
+        120,
+        60,
+        105
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gothita": {
+      "name": "Gothita",
+      "number": 201,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        45,
+        30,
+        50,
+        55,
+        65,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gothorita": {
+      "name": "Gothorita",
+      "number": 202,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        60,
+        45,
+        70,
+        75,
+        85,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gothitelle": {
+      "name": "Gothitelle",
+      "number": 203,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        70,
+        55,
+        95,
+        95,
+        110,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Solosis": {
+      "name": "Solosis",
+      "number": 204,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        45,
+        30,
+        40,
+        105,
+        50,
+        20
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Duosion": {
+      "name": "Duosion",
+      "number": 205,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        65,
+        40,
+        50,
+        125,
+        60,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Reuniclus": {
+      "name": "Reuniclus",
+      "number": 206,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        110,
+        65,
+        75,
+        125,
+        85,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ducklett": {
+      "name": "Ducklett",
+      "number": 207,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "stats": [
+        62,
+        44,
+        50,
+        44,
+        50,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Swanna": {
+      "name": "Swanna",
+      "number": 208,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Flying"
+      ],
+      "stats": [
+        75,
+        87,
+        63,
+        87,
+        63,
+        98
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Vanillite": {
+      "name": "Vanillite",
+      "number": 209,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        36,
+        50,
+        50,
+        65,
+        60,
+        44
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Vanillish": {
+      "name": "Vanillish",
+      "number": 210,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        51,
+        65,
+        65,
+        80,
+        75,
+        59
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Vanilluxe": {
+      "name": "Vanilluxe",
+      "number": 211,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        71,
+        95,
+        85,
+        110,
+        95,
+        79
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Emolga": {
+      "name": "Emolga",
+      "number": 212,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "stats": [
+        55,
+        75,
+        60,
+        75,
+        60,
+        103
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Karrablast": {
+      "name": "Karrablast",
+      "number": 213,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        50,
+        75,
+        45,
+        40,
+        45,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Escavalier": {
+      "name": "Escavalier",
+      "number": 214,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "stats": [
+        70,
+        135,
+        105,
+        60,
+        105,
+        20
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Foongus": {
+      "name": "Foongus",
+      "number": 215,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        69,
+        55,
+        45,
+        55,
+        55,
+        15
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Amoonguss": {
+      "name": "Amoonguss",
+      "number": 216,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        114,
+        85,
+        70,
+        85,
+        80,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Alomomola": {
+      "name": "Alomomola",
+      "number": 217,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        165,
+        75,
+        80,
+        40,
+        45,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ferroseed": {
+      "name": "Ferroseed",
+      "number": 218,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Steel"
+      ],
+      "stats": [
+        44,
+        50,
+        91,
+        24,
+        86,
+        10
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Ferrothorn": {
+      "name": "Ferrothorn",
+      "number": 219,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Steel"
+      ],
+      "stats": [
+        74,
+        94,
+        131,
+        54,
+        116,
+        20
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Litwick": {
+      "name": "Litwick",
+      "number": 220,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "stats": [
+        50,
+        30,
+        55,
+        65,
+        55,
+        20
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Lampent": {
+      "name": "Lampent",
+      "number": 221,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "stats": [
+        60,
+        40,
+        60,
+        95,
+        60,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Chandelure": {
+      "name": "Chandelure",
+      "number": 222,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "stats": [
+        60,
+        55,
+        90,
+        145,
+        90,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Axew": {
+      "name": "Axew",
+      "number": 223,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        46,
+        87,
+        60,
+        30,
+        40,
+        57
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Fraxure": {
+      "name": "Fraxure",
+      "number": 224,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        66,
+        117,
+        70,
+        40,
+        50,
+        67
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Haxorus": {
+      "name": "Haxorus",
+      "number": 225,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        76,
+        147,
+        90,
+        60,
+        70,
+        97
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Cubchoo": {
+      "name": "Cubchoo",
+      "number": 226,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        55,
+        70,
+        40,
+        60,
+        40,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Beartic": {
+      "name": "Beartic",
+      "number": 227,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        95,
+        130,
+        80,
+        70,
+        80,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Cryogonal": {
+      "name": "Cryogonal",
+      "number": 228,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        80,
+        50,
+        50,
+        95,
+        135,
+        105
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Shelmet": {
+      "name": "Shelmet",
+      "number": 229,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        50,
+        40,
+        85,
+        40,
+        65,
+        25
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Accelgor": {
+      "name": "Accelgor",
+      "number": 230,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        80,
+        70,
+        40,
+        100,
+        60,
+        145
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Stunfisk": {
+      "name": "Stunfisk",
+      "number": 231,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Electric"
+      ],
+      "stats": [
+        109,
+        66,
+        84,
+        81,
+        99,
+        32
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mienfoo": {
+      "name": "Mienfoo",
+      "number": 232,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        45,
+        85,
+        50,
+        55,
+        50,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mienshao": {
+      "name": "Mienshao",
+      "number": 233,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        65,
+        125,
+        60,
+        95,
+        60,
+        105
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Druddigon": {
+      "name": "Druddigon",
+      "number": 234,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        77,
+        120,
+        90,
+        60,
+        90,
+        48
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Golett": {
+      "name": "Golett",
+      "number": 235,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "stats": [
+        59,
+        74,
+        50,
+        35,
+        50,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Golurk": {
+      "name": "Golurk",
+      "number": 236,
+      "preevolution": "",
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "stats": [
+        89,
+        124,
+        80,
+        55,
+        80,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pawniard": {
+      "name": "Pawniard",
+      "number": 237,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Steel"
+      ],
+      "stats": [
+        45,
+        85,
+        70,
+        40,
+        40,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bisharp": {
+      "name": "Bisharp",
+      "number": 238,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Steel"
+      ],
+      "stats": [
+        65,
+        125,
+        100,
+        60,
+        70,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Heatmor": {
+      "name": "Heatmor",
+      "number": 239,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        85,
+        97,
+        66,
+        105,
+        66,
+        65
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Durant": {
+      "name": "Durant",
+      "number": 240,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "stats": [
+        58,
+        109,
+        112,
+        48,
+        48,
+        109
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Deino": {
+      "name": "Deino",
+      "number": 241,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Dragon"
+      ],
+      "stats": [
+        52,
+        65,
+        50,
+        45,
+        50,
+        38
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Zweilous": {
+      "name": "Zweilous",
+      "number": 242,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Dragon"
+      ],
+      "stats": [
+        72,
+        85,
+        70,
+        65,
+        70,
+        58
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hydreigon": {
+      "name": "Hydreigon",
+      "number": 243,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Dragon"
+      ],
+      "stats": [
+        92,
+        105,
+        90,
+        125,
+        90,
+        98
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Chespin": {
+      "name": "Chespin",
+      "number": 244,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        56,
+        61,
+        65,
+        48,
+        45,
+        38
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Quilladin": {
+      "name": "Quilladin",
+      "number": 245,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        61,
+        78,
+        95,
+        56,
+        58,
+        57
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Chesnaught": {
+      "name": "Chesnaught",
+      "number": 246,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "stats": [
+        88,
+        107,
+        122,
+        74,
+        75,
+        64
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Fennekin": {
+      "name": "Fennekin",
+      "number": 247,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        40,
+        45,
+        40,
+        62,
+        60,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Braixen": {
+      "name": "Braixen",
+      "number": 248,
+      "preevolution": "",
+      "types": [
+        "Fire"
+      ],
+      "stats": [
+        59,
+        59,
+        58,
+        90,
+        70,
+        73
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Delphox": {
+      "name": "Delphox",
+      "number": 249,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "stats": [
+        75,
+        69,
+        72,
+        114,
+        100,
+        104
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Froakie": {
+      "name": "Froakie",
+      "number": 250,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        41,
+        56,
+        40,
+        62,
+        44,
+        71
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Frogadier": {
+      "name": "Frogadier",
+      "number": 251,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        54,
+        63,
+        52,
+        83,
+        56,
+        97
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Greninja": {
+      "name": "Greninja",
+      "number": 252,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "stats": [
+        72,
+        95,
+        67,
+        103,
+        71,
+        122
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bunnelby": {
+      "name": "Bunnelby",
+      "number": 253,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        38,
+        36,
+        38,
+        32,
+        36,
+        57
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Diggersby": {
+      "name": "Diggersby",
+      "number": 254,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Ground"
+      ],
+      "stats": [
+        85,
+        56,
+        77,
+        50,
+        77,
+        78
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Fletchling": {
+      "name": "Fletchling",
+      "number": 255,
+      "preevolution": "",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "stats": [
+        45,
+        50,
+        43,
+        40,
+        38,
+        62
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Fletchinder": {
+      "name": "Fletchinder",
+      "number": 256,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "stats": [
+        62,
+        73,
+        55,
+        56,
+        52,
+        84
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Talonflame": {
+      "name": "Talonflame",
+      "number": 257,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "stats": [
+        78,
+        81,
+        71,
+        74,
+        69,
+        126
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Scatterbug": {
+      "name": "Scatterbug",
+      "number": 258,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        38,
+        35,
+        40,
+        27,
+        25,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Spewpa": {
+      "name": "Spewpa",
+      "number": 259,
+      "preevolution": "",
+      "types": [
+        "Bug"
+      ],
+      "stats": [
+        45,
+        22,
+        60,
+        27,
+        30,
+        29
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Vivillon": {
+      "name": "Vivillon",
+      "number": 260,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        80,
+        52,
+        50,
+        90,
+        50,
+        89
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Litleo": {
+      "name": "Litleo",
+      "number": 261,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Normal"
+      ],
+      "stats": [
+        62,
+        50,
+        58,
+        73,
+        54,
+        72
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pyroar": {
+      "name": "Pyroar",
+      "number": 262,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Normal"
+      ],
+      "stats": [
+        86,
+        68,
+        72,
+        109,
+        66,
+        106
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Flabebe": {
+      "name": "Flabebe",
+      "number": 263,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        44,
+        38,
+        39,
+        61,
+        79,
+        42
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Floette": {
+      "name": "Floette",
+      "number": 264,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        54,
+        45,
+        47,
+        75,
+        98,
+        52
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Florges": {
+      "name": "Florges",
+      "number": 265,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        78,
+        65,
+        68,
+        112,
+        154,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Skiddo": {
+      "name": "Skiddo",
+      "number": 266,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        66,
+        65,
+        48,
+        62,
+        57,
+        52
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gogoat": {
+      "name": "Gogoat",
+      "number": 267,
+      "preevolution": "",
+      "types": [
+        "Grass"
+      ],
+      "stats": [
+        123,
+        100,
+        62,
+        97,
+        81,
+        68
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pancham": {
+      "name": "Pancham",
+      "number": 268,
+      "preevolution": "",
+      "types": [
+        "Fighting"
+      ],
+      "stats": [
+        67,
+        82,
+        62,
+        46,
+        48,
+        43
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pangoro": {
+      "name": "Pangoro",
+      "number": 269,
+      "preevolution": "",
+      "types": [
+        "Fighting",
+        "Dark"
+      ],
+      "stats": [
+        95,
+        124,
+        78,
+        69,
+        71,
+        58
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Furfrou": {
+      "name": "Furfrou",
+      "number": 270,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        75,
+        80,
+        60,
+        65,
+        90,
+        102
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Espurr": {
+      "name": "Espurr",
+      "number": 271,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        62,
+        48,
+        54,
+        63,
+        60,
+        68
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Meowstic": {
+      "name": "Meowstic",
+      "number": 272,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        74,
+        48,
+        76,
+        83,
+        81,
+        104
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Honedge": {
+      "name": "Honedge",
+      "number": 273,
+      "preevolution": "",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "stats": [
+        45,
+        80,
+        100,
+        35,
+        37,
+        28
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Doublade": {
+      "name": "Doublade",
+      "number": 274,
+      "preevolution": "",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "stats": [
+        59,
+        110,
+        150,
+        45,
+        49,
+        35
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Aegislash": {
+      "name": "Aegislash",
+      "number": 275,
+      "preevolution": "",
+      "types": [
+        "Steel",
+        "Ghost"
+      ],
+      "stats": [
+        60,
+        50,
+        150,
+        50,
+        150,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Spritzee": {
+      "name": "Spritzee",
+      "number": 276,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        78,
+        52,
+        60,
+        63,
+        65,
+        23
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Aromatisse": {
+      "name": "Aromatisse",
+      "number": 277,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        101,
+        72,
+        72,
+        99,
+        89,
+        29
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Swirlix": {
+      "name": "Swirlix",
+      "number": 278,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        62,
+        48,
+        66,
+        59,
+        57,
+        49
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Slurpuff": {
+      "name": "Slurpuff",
+      "number": 279,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        82,
+        80,
+        86,
+        85,
+        75,
+        72
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Inkay": {
+      "name": "Inkay",
+      "number": 280,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Psychic"
+      ],
+      "stats": [
+        53,
+        54,
+        53,
+        37,
+        46,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Malamar": {
+      "name": "Malamar",
+      "number": 281,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Psychic"
+      ],
+      "stats": [
+        86,
+        92,
+        88,
+        68,
+        75,
+        73
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Binacle": {
+      "name": "Binacle",
+      "number": 282,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "stats": [
+        42,
+        52,
+        67,
+        39,
+        56,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Barbaracle": {
+      "name": "Barbaracle",
+      "number": 283,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Water"
+      ],
+      "stats": [
+        72,
+        105,
+        115,
+        54,
+        86,
+        68
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Skrelp": {
+      "name": "Skrelp",
+      "number": 284,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Water"
+      ],
+      "stats": [
+        50,
+        60,
+        60,
+        60,
+        60,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dragalge": {
+      "name": "Dragalge",
+      "number": 285,
+      "preevolution": "",
+      "types": [
+        "Poison",
+        "Dragon"
+      ],
+      "stats": [
+        65,
+        75,
+        90,
+        97,
+        123,
+        44
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Clauncher": {
+      "name": "Clauncher",
+      "number": 286,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        50,
+        53,
+        62,
+        58,
+        63,
+        44
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Clawitzer": {
+      "name": "Clawitzer",
+      "number": 287,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        71,
+        73,
+        88,
+        120,
+        89,
+        59
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Helioptile": {
+      "name": "Helioptile",
+      "number": 288,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Normal"
+      ],
+      "stats": [
+        44,
+        38,
+        33,
+        61,
+        43,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Heliolisk": {
+      "name": "Heliolisk",
+      "number": 289,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Normal"
+      ],
+      "stats": [
+        62,
+        55,
+        52,
+        109,
+        94,
+        109
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Tyrunt": {
+      "name": "Tyrunt",
+      "number": 290,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Dragon"
+      ],
+      "stats": [
+        58,
+        89,
+        77,
+        45,
+        45,
+        48
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Tyrantrum": {
+      "name": "Tyrantrum",
+      "number": 291,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Dragon"
+      ],
+      "stats": [
+        82,
+        121,
+        119,
+        69,
+        59,
+        71
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Amaura": {
+      "name": "Amaura",
+      "number": 292,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Ice"
+      ],
+      "stats": [
+        77,
+        59,
+        50,
+        67,
+        63,
+        46
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Aurorus": {
+      "name": "Aurorus",
+      "number": 293,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Ice"
+      ],
+      "stats": [
+        123,
+        77,
+        72,
+        99,
+        92,
+        58
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sylveon": {
+      "name": "Sylveon",
+      "number": 294,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        95,
+        65,
+        65,
+        110,
+        130,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hawlucha": {
+      "name": "Hawlucha",
+      "number": 295,
+      "preevolution": "",
+      "types": [
+        "Fighting",
+        "Flying"
+      ],
+      "stats": [
+        78,
+        92,
+        75,
+        74,
+        63,
+        118
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Dedenne": {
+      "name": "Dedenne",
+      "number": 296,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Fairy"
+      ],
+      "stats": [
+        67,
+        58,
+        57,
+        81,
+        67,
+        101
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Carbink": {
+      "name": "Carbink",
+      "number": 297,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "stats": [
+        50,
+        50,
+        150,
+        50,
+        150,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Goomy": {
+      "name": "Goomy",
+      "number": 298,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        45,
+        50,
+        35,
+        55,
+        75,
+        40
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Sliggoo": {
+      "name": "Sliggoo",
+      "number": 299,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        68,
+        75,
+        53,
+        83,
+        113,
+        60
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Goodra": {
+      "name": "Goodra",
+      "number": 300,
+      "preevolution": "",
+      "types": [
+        "Dragon"
+      ],
+      "stats": [
+        90,
+        100,
+        70,
+        110,
+        150,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Klefki": {
+      "name": "Klefki",
+      "number": 301,
+      "preevolution": "",
+      "types": [
+        "Steel",
+        "Fairy"
+      ],
+      "stats": [
+        57,
+        80,
+        91,
+        80,
+        87,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Phantump": {
+      "name": "Phantump",
+      "number": 302,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "stats": [
+        43,
+        70,
+        48,
+        50,
+        60,
+        38
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Trevenant": {
+      "name": "Trevenant",
+      "number": 303,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "stats": [
+        85,
+        110,
+        76,
+        65,
+        82,
+        56
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Pumpkaboo": {
+      "name": "Pumpkaboo",
+      "number": 304,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "stats": [
+        59,
+        66,
+        70,
+        44,
+        55,
+        41
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Gourgeist": {
+      "name": "Gourgeist",
+      "number": 305,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Grass"
+      ],
+      "stats": [
+        85,
+        100,
+        122,
+        58,
+        75,
+        54
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Bergmite": {
+      "name": "Bergmite",
+      "number": 306,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        55,
+        69,
+        85,
+        32,
+        35,
+        28
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Avalugg": {
+      "name": "Avalugg",
+      "number": 307,
+      "preevolution": "",
+      "types": [
+        "Ice"
+      ],
+      "stats": [
+        95,
+        117,
+        184,
+        44,
+        46,
+        28
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Noibat": {
+      "name": "Noibat",
+      "number": 308,
+      "preevolution": "",
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "stats": [
+        40,
+        30,
+        35,
+        45,
+        40,
+        55
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Noivern": {
+      "name": "Noivern",
+      "number": 309,
+      "preevolution": "",
+      "types": [
+        "Flying",
+        "Dragon"
+      ],
+      "stats": [
+        85,
+        70,
+        80,
+        97,
+        80,
+        123
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Xerneas": {
+      "name": "Xerneas",
+      "number": 310,
+      "preevolution": "",
+      "types": [
+        "Fairy"
+      ],
+      "stats": [
+        126,
+        131,
+        95,
+        131,
+        98,
+        99
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Yveltal": {
+      "name": "Yveltal",
+      "number": 311,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Flying"
+      ],
+      "stats": [
+        126,
+        131,
+        95,
+        131,
+        98,
+        99
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Zygarde": {
+      "name": "Zygarde",
+      "number": 312,
+      "preevolution": "",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "stats": [
+        108,
+        100,
+        121,
+        81,
+        95,
+        95
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Diancie": {
+      "name": "Diancie",
+      "number": 313,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Fairy"
+      ],
+      "stats": [
+        50,
+        100,
+        150,
+        100,
+        150,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Hoopa": {
+      "name": "Hoopa",
+      "number": 314,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Ghost"
+      ],
+      "stats": [
+        80,
+        110,
+        60,
+        150,
+        130,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Volcanion": {
+      "name": "Volcanion",
+      "number": 315,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Water"
+      ],
+      "stats": [
+        80,
+        110,
+        120,
+        130,
+        90,
+        70
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    }
+  },
+  "moves": {
+    "None": {
+      "name": "None",
+      "index": 0,
+      "effect": "NO_EFFECT",
+      "description": "No move data available",
+      "power": 0,
+      "type": "Normal",
+      "accuracy": 100,
+      "pp": 5,
+      "secondaryChance": 0,
+      "priority": 0,
+      "target_val": 8,
+      "flags_val": 22,
+      "target": [
+        "TARGET_RANDOM"
+      ],
+      "flags": [
+        "PROTECT_AFFECTED"
+      ]
+    }
+  },
+  "abilities": {
+    "None": {
+      "name": "None",
+      "description": "No data",
+      "index": 0
+    }
+  }
+}
