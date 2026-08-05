@@ -36,7 +36,7 @@ jobs:
         clang-cl -fuse-ld=lld -Xclang "-std=c23" /MD /O2 /W3 -msse4.2 /I"${{ steps.sdl.outputs.prefix }}/include" src/main.c /Fe"bin/webdraft-xyl.exe" /link /INCREMENTAL:NO /LIBPATH:"${{ steps.sdl.outputs.prefix }}/lib" /SUBSYSTEM:WINDOWS SDL3.lib
         copy "${{ steps.sdl.outputs.prefix }}\bin\SDL3.dll"
     - name: upload
-      uses: actions/artifacts@v4
+      uses: actions/upload-artifact@v4
       with:
         name: webdraft-xyl-win64
         path: bin/
