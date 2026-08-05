@@ -7125,6 +7125,642 @@
       "abilities": [
         "None"
       ]
+    },
+    "Mega Venusaur": {
+      "name": "Mega Venusaur",
+      "number": 316,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "stats": [
+        80,
+        100,
+        123,
+        122,
+        120,
+        80
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Charizard X": {
+      "name": "Mega Charizard X",
+      "number": 317,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Dragon"
+      ],
+      "stats": [
+        78,
+        130,
+        111,
+        130,
+        85,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Charizard Y": {
+      "name": "Mega Charizard Y",
+      "number": 318,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "stats": [
+        78,
+        104,
+        78,
+        159,
+        115,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Blastoise": {
+      "name": "Mega Blastoise",
+      "number": 319,
+      "preevolution": "",
+      "types": [
+        "Water"
+      ],
+      "stats": [
+        79,
+        103,
+        120,
+        135,
+        115,
+        78
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Alakazam": {
+      "name": "Mega Alakazam",
+      "number": 320,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        55,
+        50,
+        65,
+        175,
+        95,
+        150
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Gengar": {
+      "name": "Mega Gengar",
+      "number": 321,
+      "preevolution": "",
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "stats": [
+        60,
+        65,
+        80,
+        170,
+        95,
+        130
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Kangaskhan": {
+      "name": "Mega Kangaskhan",
+      "number": 322,
+      "preevolution": "",
+      "types": [
+        "Normal"
+      ],
+      "stats": [
+        105,
+        125,
+        100,
+        60,
+        100,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Pinsir": {
+      "name": "Mega Pinsir",
+      "number": 323,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "stats": [
+        65,
+        155,
+        120,
+        65,
+        90,
+        105
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Gyarados": {
+      "name": "Mega Gyarados",
+      "number": 324,
+      "preevolution": "",
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "stats": [
+        95,
+        155,
+        109,
+        70,
+        130,
+        81
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Aerodactyl": {
+      "name": "Mega Aerodactyl",
+      "number": 325,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "stats": [
+        80,
+        135,
+        85,
+        70,
+        95,
+        150
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Mewtwo X": {
+      "name": "Mega Mewtwo X",
+      "number": 326,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Fighting"
+      ],
+      "stats": [
+        106,
+        190,
+        100,
+        154,
+        100,
+        130
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Mewtwo Y": {
+      "name": "Mega Mewtwo Y",
+      "number": 327,
+      "preevolution": "",
+      "types": [
+        "Psychic"
+      ],
+      "stats": [
+        106,
+        150,
+        70,
+        194,
+        120,
+        140
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Ampharos": {
+      "name": "Mega Ampharos",
+      "number": 328,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "stats": [
+        90,
+        95,
+        105,
+        165,
+        110,
+        45
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Scizor": {
+      "name": "Mega Scizor",
+      "number": 329,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "stats": [
+        70,
+        150,
+        140,
+        65,
+        100,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Heracross": {
+      "name": "Mega Heracross",
+      "number": 330,
+      "preevolution": "",
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "stats": [
+        80,
+        185,
+        115,
+        40,
+        105,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Houndoom": {
+      "name": "Mega Houndoom",
+      "number": 331,
+      "preevolution": "",
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "stats": [
+        75,
+        90,
+        90,
+        140,
+        90,
+        115
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Tyranitar": {
+      "name": "Mega Tyranitar",
+      "number": 332,
+      "preevolution": "",
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "stats": [
+        100,
+        164,
+        150,
+        95,
+        120,
+        71
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Blaziken": {
+      "name": "Mega Blaziken",
+      "number": 333,
+      "preevolution": "",
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "stats": [
+        80,
+        160,
+        80,
+        130,
+        80,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Gardevoir": {
+      "name": "Mega Gardevoir",
+      "number": 334,
+      "preevolution": "",
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "stats": [
+        68,
+        85,
+        65,
+        165,
+        135,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Mawile": {
+      "name": "Mega Mawile",
+      "number": 335,
+      "preevolution": "",
+      "types": [
+        "Steel",
+        "Fairy"
+      ],
+      "stats": [
+        50,
+        105,
+        125,
+        55,
+        95,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Aggron": {
+      "name": "Mega Aggron",
+      "number": 336,
+      "preevolution": "",
+      "types": [
+        "Steel"
+      ],
+      "stats": [
+        70,
+        140,
+        230,
+        60,
+        80,
+        50
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Medicham": {
+      "name": "Mega Medicham",
+      "number": 337,
+      "preevolution": "",
+      "types": [
+        "Fighting",
+        "Psychic"
+      ],
+      "stats": [
+        60,
+        100,
+        85,
+        60,
+        85,
+        100
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Manectric": {
+      "name": "Mega Manectric",
+      "number": 338,
+      "preevolution": "",
+      "types": [
+        "Electric"
+      ],
+      "stats": [
+        70,
+        75,
+        80,
+        135,
+        80,
+        135
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Banette": {
+      "name": "Mega Banette",
+      "number": 339,
+      "preevolution": "",
+      "types": [
+        "Ghost"
+      ],
+      "stats": [
+        64,
+        165,
+        75,
+        93,
+        83,
+        75
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Absol": {
+      "name": "Mega Absol",
+      "number": 340,
+      "preevolution": "",
+      "types": [
+        "Dark"
+      ],
+      "stats": [
+        65,
+        150,
+        60,
+        115,
+        60,
+        115
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Garchomp": {
+      "name": "Mega Garchomp",
+      "number": 341,
+      "preevolution": "",
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "stats": [
+        108,
+        170,
+        115,
+        120,
+        95,
+        92
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Lucario": {
+      "name": "Mega Lucario",
+      "number": 342,
+      "preevolution": "",
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "stats": [
+        70,
+        145,
+        88,
+        140,
+        70,
+        112
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Mega Abomasnow": {
+      "name": "Mega Abomasnow",
+      "number": 343,
+      "preevolution": "",
+      "types": [
+        "Grass",
+        "Ice"
+      ],
+      "stats": [
+        90,
+        132,
+        105,
+        132,
+        105,
+        30
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
     }
   },
   "moves": {

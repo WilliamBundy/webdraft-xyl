@@ -15,6 +15,16 @@ int monTile_draw(float2 pos, GuiTray* tray, GuiTile* tile)
 	SDL_FRect dst = pXformRect(pos - src.w/2, (float2){src.w, src.h} * 2, camera);
 	SDL_RenderTexture(Game->renderer, monTexture, &src, &dst);
 
+	{
+		int id = tile->id - 1;
+		MonDef* mon = &globalMonData->mons[id];
+		if(strncmp(mon->name, "Mega", 4) == 0) {
+			SDL_FRect nsrc = {0, 144, 16, 16};
+			SDL_FRect ndst = pXformRect(pos + (float2){0, src.h - nsrc.h}, (float2){16, 16}, camera);
+			SDL_RenderTexture(Game->renderer, Game->texture, &nsrc, &ndst); 
+		}
+	}
+
 	if(tray && (tray->kind != TrayKind_PointTier && tray->kind != TrayKind_DraftBoard)) {
 		char buf[16];
 		SDL_snprintf(buf, 16, "%d", (int)(uint64_t)tile->userdata);

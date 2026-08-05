@@ -84,9 +84,10 @@ for index, name in enumerate(mon_in_dex):
 	dexnum = mon['id']
 	img = Image.open(os.path.join(sys.argv[3], "{:03d}MS.png".format(dexnum))).convert("RGBA")
 	w = img.width
+	h = img.height
 	dx = (64 - w) // 2
-	dy = (64 - w) // 2
-	sheet.alpha_composite(img, (x+dx, y+dy), (0, 0, img.width, img.width))
+	dy = (64 - h) // 2
+	sheet.alpha_composite(img, (x+dx, y+dy), (0, 0, w, h))
 	x += 64
 	if x >= sheet.width-1:
 		x = 0
