@@ -1,0 +1,2 @@
+CompileFlags:
+	Add: [-isystem, /opt/homebrew/include, -isystem, /usr/local/include, -isystem, W:/usr/local/include, -isystem, include, -I, include, -Wall, -Wno-char-subscripts, -Wno-unused-function, -Wno-unused-const-variable, -x, c, -std=c23, -DWB_CLANGD_ENABLE]
