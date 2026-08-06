@@ -6,18 +6,15 @@
 #include "util.h"
 
 uint8_t moveTableFile[] = {
-//#embed "cl-movedata.tabl"
 	#embed "assets/xy.wdmoves"
 };
 uint8_t monTableFile[] = {
-//#embed "cl-mondata.tabl"
 	#embed "assets/xy.wdmons"
 };
 uint8_t abilityTableFile[] = {
 	#embed "assets/xy.wdabi"
 };
 uint8_t crystalMonsPng[] = {
-	//#embed "crystal-mons.png"
 	#embed "assets/xy-sheet.png"
 };
 

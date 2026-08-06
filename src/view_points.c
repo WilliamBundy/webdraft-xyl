@@ -364,7 +364,7 @@ void pointState_update(GameState* base, GameContext* game)
 	float4 sourceTrayBox = 0;
 	if(keyDown(SDL_SCANCODE_SPACE)) {
 		sourceTrayBox.x = 0;
-		sourceTrayBox.y = trayPen.y + Game->windowSize.y / 2;
+		sourceTrayBox.y = trayPen.y + Game->windowSize.y / 3;
 		sourceTrayBox.zw = Game->windowSize;
 	} else if(keyJustUp(SDL_SCANCODE_SPACE)) {
 		for(int i = 0; i <= pointdb->numTiers; ++i) {
@@ -441,6 +441,7 @@ void pointState_update(GameState* base, GameContext* game)
 
 		
 		// Don't bother with a movelist for now, we don't have the data for them
+		/*
 		MonData* md = globalMonData;
 			//uiSpacer(128 + 8 * 11);
 		Gui->pen = playerBox.zw;
@@ -484,9 +485,11 @@ void pointState_update(GameState* base, GameContext* game)
 			uiPop();
 		}
 		
+		*/
 	} else {
-		state->lastMove = -1;
+		//state->lastMove = -1;
 	}
+
 
 
 

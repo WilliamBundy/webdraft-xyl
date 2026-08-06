@@ -11,16 +11,17 @@
 int monTile_draw(float2 pos, GuiTray* tray, GuiTile* tile)
 {
 	Xform camera = Xzero; //tray ? tray->trx->trayCamera : Xzero;
-	SDL_FRect src = getMonRect(tile->id - 1);
+	SDL_FRect src = getMonRect(tile->id-1);
 	SDL_FRect dst = pXformRect(pos - src.w/2, (float2){src.w, src.h} * 2, camera);
 	SDL_RenderTexture(Game->renderer, monTexture, &src, &dst);
 
 	{
 		int id = tile->id - 1;
 		MonDef* mon = &globalMonData->mons[id];
-		if(strncmp(mon->name, "Mega", 4) == 0) {
+		if(strncmp(mon->name, "M-", 2) == 0) {
 			SDL_FRect nsrc = {0, 144, 16, 16};
 			SDL_FRect ndst = pXformRect(pos + (float2){0, src.h - nsrc.h}, (float2){16, 16}, camera);
+			SDL_SetTextureColorMod(Game->texture, 255, 255, 255);
 			SDL_RenderTexture(Game->renderer, Game->texture, &nsrc, &ndst); 
 		}
 	}
