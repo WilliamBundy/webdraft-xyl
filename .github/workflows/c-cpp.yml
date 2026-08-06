@@ -17,11 +17,13 @@ jobs:
       with:
          arch: amd64
     - name: Clang cache
+      id: clang-cache
       uses: actions/cache@v5
       with:
         path: C:\Program Files\LLVM
         key: ${{ runner.os }}-llvm-22
     - name: Clang setup
+      if: steps.clang-cache.outputs.cache-miss
       uses: egor-tensin/setup-clang@v2
       with:
         version: 22
@@ -30,7 +32,6 @@ jobs:
       uses: libsdl-org/setup-sdl@main
       id: sdl
       with:
-        install-windows-dependencies: true
         version: 3-latest
         add-to-environment: true
         build-type: Release
