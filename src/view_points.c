@@ -8,10 +8,10 @@
 #include "gui_tray.h"
 #include "drawtext.h"
 
+void globalSetDefaultPoints();
 
 int pointFileSave(LoadedFileInfo* fileinfo, const char* path)
 {
-	#ifndef __EMSCRIPTEN__
 	PointEditorState* state = fileinfo->userdata;
 	if(state && state->pointsfile == fileinfo) {
 		if(strncmp(path, fileinfo->filename, 4096) != 0) {
@@ -21,17 +21,17 @@ int pointFileSave(LoadedFileInfo* fileinfo, const char* path)
 		}
 	}
 
+	#ifndef __EMSCRIPTEN__
 	if(!fileinfo->backupFile) {
 		const char* backup = getBackupPath(fileinfo->filename, "points");
 		fileinfo->backupFile = backup;
 	}
 	//SDL_Log("backup file: %s", fileinfo->backupFile);
 	SDL_CopyFile(fileinfo->filename, fileinfo->backupFile);
-	fileinfo->wasEdited = false;
-	return pointdbSave(state->monData, state->pointdb, fileinfo->filename);
-	#else
-	return 0;
 	#endif
+	fileinfo->wasEdited = false;
+	SDL_Log("saving fileinfo->filename: [%s]", fileinfo->filename);
+	return pointdbSave(state->monData, state->pointdb, fileinfo->filename);
 }
 
 int pointFileExportCsv(LoadedFileInfo* fileinfo, const char* path)
@@ -50,7 +50,6 @@ int pointFileExportCsv(LoadedFileInfo* fileinfo, const char* path)
 
 int pointFileLoad(LoadedFileInfo* fileinfo, const char* path)
 {
-	#ifndef __EMSCRIPTEN__
 	PointEditorState* state = fileinfo->userdata;
 	if(state && state->pointsfile == fileinfo) {
 		if(strncmp(path, fileinfo->filename, 4096) != 0) {
@@ -67,6 +66,7 @@ int pointFileLoad(LoadedFileInfo* fileinfo, const char* path)
 		// should own it and that there can be floating files unassociated
 		// with the state. that's bad, but right now it's not going to be 
 		// fixed -- version 2.0 things for emerald/others lol
+		SDL_Log("loading fileinfo->filename: [%s]", fileinfo->filename);
 		int ret = pointdbLoad(state->monData, state->pointdb, path);
 		Game->needUpdate = 3;
 		state->pointsDirty = true;
@@ -74,9 +74,6 @@ int pointFileLoad(LoadedFileInfo* fileinfo, const char* path)
 	} else {
 		return 0;
 	}
-	#else
-	return 0;
-	#endif
 }
 
 int pointFileImportCsv(LoadedFileInfo* fileinfo, const char* path)
@@ -107,13 +104,12 @@ void setupPointFile(PointEditorState* state, LoadedFileInfo* fileinfo, const cha
 	fileinfo->export = pointFileExportCsv;
 	fileinfo->extension = "wdpoints";
 	fileinfo->exportExtension = "csv";
-	if(!fileinfo->filename) {
+	if(!fileinfo->filename || strlen(fileinfo->filename) < 2) {
 		fileinfo->filename = filename;
 		fileinfo->backupFile = filename;
-	} else {
-		pointFileLoad(fileinfo, fileinfo->filename);
-	}
-
+	} 
+	
+	pointFileLoad(fileinfo, fileinfo->filename);
 }
 
 const char* sourceTrayNames[] = {
@@ -146,6 +142,7 @@ void pointState_assignTiles(PointEditorState* state)
 
 	for(int i = 0; i < md->numMons; ++i) {
 		int pt = pointdb->pointCosts[i];
+		//SDL_Log("Mon %d: %d", i, pt);
 		GuiTile* tile = &trx->tiles[i];
 		bool doReassign = false;
 		if(pt >= 0 && pt < pointdb->maxTiers) {
@@ -258,7 +255,11 @@ void pointState_update(GameState* base, GameContext* game)
 	common_drawTabs();
 
 	if(state->pointsDirty) {
+		SDL_Log("assigning tiles");
 		pointState_assignTiles(state);
+		#ifdef __EMSCRIPTEN__
+			pointFileSave(state->pointsfile, state->pointsfile->filename);
+		#endif
 	}
 
 	uiHbox();
@@ -304,6 +305,7 @@ void pointState_update(GameState* base, GameContext* game)
 		openFileDialog(FileDialog_Export, state->pointsfile, 0);
 	}
 	#else
+	uiLabel(Gui_Highlighted, Align_Center, "Use Ctrl-C and Ctrl-V to copy and paste CSV files", -1);
 	/*
 	if(uiButton(0, "Import CSV from clipboard")) {
 		char* csv = SDL_GetClipboardText();
@@ -335,22 +337,31 @@ void pointState_update(GameState* base, GameContext* game)
 			 	state->pointsfile->filename, 
 			 	SDL_strlen(state->pointsfile->filename)));
 	} else {
-		uiLabelFmt(0, Align_Center, "No file loaded");
+		uiLabelFmt(Gui_Highlighted, Align_Center, "No file loaded");
 	}
 
-	if(state->resetMode == 0 && uiButton(0, "Reset Points")) {
+	if(state->resetMode != 1 && uiButton(0, "Delete All Point Values")) {
 		state->resetMode = 1;
 	} else if(state->resetMode == 1 && uiButton(0, "Are you sure?")) {
 		state->resetMode = 0;
 		state->gotFilename = false;
-		state->pointsfile->filename = nullptr;
-		state->pointsfile->backupFile = nullptr;
+		state->pointsfile->filename = "Untitled.wdpoints";
+		state->pointsfile->backupFile = "Untitled.wdpoints";
 		pointdb->numTiers = 0;
 		for(int i = 0; i < state->monData->numMons; ++i) {
 			pointdb->pointCosts[i] = -1;
 			monTile_init(&trx->tiles[i], state->monData, i+1);
 		}
 		pointState_assignTiles(state);
+	}
+
+	if(state->resetMode != 2 && uiButton(0, "Reload Default Points")) {
+		state->resetMode = 2;
+	} else if(state->resetMode == 2 && uiButton(0, "Are you sure?")) {
+		state->resetMode = 0;
+		globalSetDefaultPoints();
+		pointState_assignTiles(state);
+		Game->needUpdate = 3;
 	}
 
 	uiIncrement(32);
@@ -493,7 +504,13 @@ void pointState_update(GameState* base, GameContext* game)
 
 
 
-	trayContextUpdate(trx);
+
+	bool wasDropped = trayContextUpdate(trx);
+	if(wasDropped) {
+		#ifdef __EMSCRIPTEN__
+			pointFileSave(state->pointsfile, state->pointsfile->filename);
+		#endif
+	}
 }
 
 void pointState_stop(GameState* base, GameContext* game)

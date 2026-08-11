@@ -20,3 +20,4 @@ backup_points.txt
 *.tabl
 emscripten/
 src/assets/pkmn_data/
+bin-web/

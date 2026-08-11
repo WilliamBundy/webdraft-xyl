@@ -16,13 +16,18 @@ int draftFileSave(LoadedFileInfo* fileinfo, const char* path)
 		}
 	}
 
+	#ifndef __EMSCRIPTEN__
 	if(!fileinfo->backupFile) {
 		const char* backup = getBackupPath(fileinfo->filename, "draft");
 		fileinfo->backupFile = backup;
 	}
 
 	SDL_Log("saving %s", fileinfo->filename);
-	SDL_CopyFile(fileinfo->filename, fileinfo->backupFile);
+	bool ret = SDL_CopyFile(fileinfo->filename, fileinfo->backupFile);
+	if(!ret) {
+		SDL_Log("%s", SDL_GetError());
+	}
+	#endif
 	fileinfo->wasEdited = false;
 	return draftSave(state->monData, state->board, state->playerdb, state->pointdb, path);
 }
@@ -604,6 +609,10 @@ void draftState_update(GameState* base, GameContext* game)
 				}
 				team->numMons = tray->numSlots;
 			}
+
+			#ifdef __EMSCRIPTEN__
+			draftFileSave(state->draftFile, state->draftFile->filename);
+			#endif
 		}
 
 		if(trx->lastTile) {

@@ -27,7 +27,6 @@ Status:
 Mostly tested, probably works.
 */
 
-
 #ifndef _WB_SPRITEFONT_H_ 
 #define _WB_SPRITEFONT_H_
 

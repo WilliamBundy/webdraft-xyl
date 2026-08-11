@@ -332,6 +332,7 @@ typedef struct MonPointDatabase
 	int numTiers, maxTiers;
 	int* pointCosts;
 	int* numMonsPerTier;
+	size_t totalSize;
 } MonPointDatabase;
 
 MonPointDatabase* createPointDB(MonData* data, int maxTiers);

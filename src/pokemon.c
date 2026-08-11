@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 #include "wb_sdlgame.h"
 
 #include "pokemon.h"
@@ -276,10 +277,17 @@ MonPointDatabase* createPointDB(MonData* data, int maxTiers)
 	size_t sz = sizeof(MonPointDatabase);
 	sz += sizeof(int) * maxTiers; // numMonsPerTier
 	sz += sizeof(int) * data->numMons; // pointCosts;	
+
+	//SDL_Log("creating point db with size: %zd", sz);
+	//SDL_Log("num mons: %d", data->numMons);
+	//SDL_Log("max tiers: %d", maxTiers);
+	// TODO investigate heap corruption when calling this multiple times in
+	// emscripten!
 	MonPointDatabase* db = calloc(1, sz);
 	db->maxTiers = maxTiers;
 	db->pointCosts = (int*)(db + 1);
 	db->numMonsPerTier = (int*)(db->pointCosts + data->numMons);
+	db->totalSize = sz;
 
 	// initialize to "invalid point costs"
 	for(int i = 0; i < data->numMons; ++i) {
@@ -405,8 +413,14 @@ int pointdbImportCSVFromText(MonData* data, MonPointDatabase* pointdb, char* tex
 						for(int i = 0; i < data->numMons; ++i) {
 							int sd = stringDistanceMatchLen(data->mons[i].name, t0);
 
+							if(strncmp(t0, "Mega ", 5) == 0) {
+								t0 += 3;
+								t0[0] = 'M';
+								t0[1] = '-';
+							}
+
 							if(sd == 0) {
-								data->pointdb->pointCosts[i] = columns[col];
+								pointdb->pointCosts[i] = columns[col];
 								//SDL_Log("%.*s (%d)", (int)(t1-t0), t0, col);
 								break;
 							} 
@@ -428,7 +442,7 @@ int pointdbImportCSVFromText(MonData* data, MonPointDatabase* pointdb, char* tex
 		text++;
 	}
 	
-	data->pointdb->numTiers = i32min(maxCol, data->pointdb->maxTiers);
+	pointdb->numTiers = i32min(maxCol, data->pointdb->maxTiers);
 
 
 	return 0;
@@ -603,7 +617,7 @@ int draftLoad(MonData* data, DraftBoard* board, PlayerDatabase* playerdb, MonPoi
 	fread(board, 1, sizeof(DraftBoard), fp);
 
 	int playerRet = playerdbLoadFile(playerdb, fp, filename);
-	int pointRet = pointdbLoadFile(data, pointdb, fp, filename);
+	int pointRet = 0; //pointdbLoadFile(data, pointdb, fp, filename);
 	fclose(fp);
 	return playerRet != 0 ? playerRet : pointRet;
 }

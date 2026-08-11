@@ -3,13 +3,20 @@
 #include "wb_sdlgame.h"
 #include <time.h>
 #include "util.h"
+#ifdef __EMSCRIPTEN__
+#include <unistd.h>
+#endif
 
 FileContext* globalFileContext;
 void setupGlobalFileContext()
 {
 	globalFileContext = SDL_calloc(1, sizeof(FileContext));
 	FileContext* fc = globalFileContext;
-	fc->prefsPath = SDL_GetPrefPath("unlikelyto.win", "webdraft-gen6");
+	fc->prefsPath = SDL_GetPrefPath("unlikelyto.win", "xyldraft");
+	SDL_Log("Save path: %s", fc->prefsPath);
+	#ifdef __EMSCRIPTEN__
+	chdir(fc->prefsPath);
+	#endif
 	fc->prefsPathLen = SDL_strlen(fc->prefsPath);
 	fc->numFiles = 4;
 

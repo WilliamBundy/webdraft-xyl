@@ -32,6 +32,7 @@ wbsf_Spritefont globalDefaultFont;
 
 #include "filecontext.h"
 
+void globalSaveDraftBoard();
 #include "view_common.h"
 #include "view_points.h"
 #include "view_players.h"
@@ -46,6 +47,9 @@ wbsf_Spritefont globalDefaultFont;
 #include "view_points.c"
 #include "view_players.c"
 #include "view_draft.c"
+
+#define EMCLIP_IMPLEMENTATION
+#include "em_clipboard.h"
 
 
 uint8_t graphicsPng[] = {
@@ -131,9 +135,14 @@ void testUpdate(GameState* state, GameContext* game)
 
 }
 
-char defaultElPoints[] = {
-	0
+char defaultXyPoints[] = {
+	#embed "assets/xy-default-points.csv"
 };
+
+void globalSetDefaultPoints()
+{
+	pointdbImportCSVFromText(globalMonData, globalMonData->pointdb, defaultXyPoints, sizeof(defaultXyPoints));
+}
 
 void globalInit()
 {
@@ -144,7 +153,7 @@ void globalInit()
 
 	globalMonData = calloc(1, sizeof(MonData));
 	pokemon_init(globalMonData);
-	//pointdbImportCSVFromText(globalMonData, globalMonData->pointdb, defaultElPoints, sizeof(defaultElPoints));
+	globalSetDefaultPoints();
 	gui_init(Gui);
 
 
@@ -163,7 +172,6 @@ void globalInit()
 
 	printf("%d usable mons\n", sum);
 
-	setupGlobalFileContext();
 }
 
 void statesInit()
@@ -175,14 +183,63 @@ void statesInit()
 	GameState* testState = gamestateCreate("Test", 0, sizeof(GameState));
 	gamestateSetProcs(testState, testCreate, testStart, testUpdate, nullptr, nullptr, nullptr);
 	gameRegister(Game, testState);
+}
 
+// FIXME this is a terrible hack necessitated by poor choices
+// players and points are saved separately from the draft board
+// players hold the actual pokemon they care about
+// the draft file contains all of this data too, and it overwrites the existing
+// files when loaded
+// therefore, when the player file is saved, it needs to save the draft file
+// too.
+void globalSaveDraftBoard()
+{
+	DraftBoardState* state = SDL_GetPointerProperty(Game->stateDict, DRAFTVIEW_NAME, nullptr);
+	if(state == nullptr) return;
+	draftFileSave(state->draftFile, state->draftFile->filename);
+}
 
-
+#ifdef __EMSCRIPTEN__
+void myPaste(const char* input, void* userdata)
+{
+	if(Game->state->id == POINTVIEW_4CC) {
+		PointEditorState* state = (void*)Game->state;
+		// TODO write a better CSV parser that can actually kind-of validate
+		// text input and reject it if it isn't sufficiently CSV/pokemon-shaped
+		char* csv = SDL_strdup(input);
+		int ret = pointdbImportCSVFromText(state->monData, state->pointdb, csv, strlen(csv));
+		state->pointsDirty = true;
+		Game->needUpdate = 3;
+		SDL_free(csv);
+	}
 }
 
 
+// crappy hack but whatever
+int clipboard_freeLaterTimer = 0;
+
+char* clipboard_freeLater; 
+
+const char* myCopy(void* userdata)
+{
+	if(Game->state->id == POINTVIEW_4CC) {
+		PointEditorState* state = (void*)Game->state;
+		SDL_IOStream* stream = SDL_IOFromDynamicMem();
+		int ret = pointdbExportCSV(state->monData, state->pointdb, stream);
+		SDL_SeekIO(stream, 0, SDL_IO_SEEK_SET);
+		size_t sz;
+		char* data = SDL_LoadFile_IO(stream, &sz, true);
+		clipboard_freeLater = data;
+		clipboard_freeLaterTimer = 10;
+		return data;
+	}
+	return "";
+}
+#endif
+
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 {
+	setupGlobalFileContext();
 	SDL_SetHint(SDL_HINT_MAIN_CALLBACK_RATE, "waitevent");
 	bool ret = SDL_Init(SDL_INIT_VIDEO);
 	if(!ret) {
@@ -200,8 +257,14 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 	gameStart(Game, PLAYEREDIT_NAME);
 	gameStart(Game, POINTVIEW_NAME);
 	gameStart(Game, DRAFTVIEW_NAME);
-	Game->needUpdate = 3;
+	Game->needUpdate = 60;
 
+
+	#ifdef __EMSCRIPTEN__
+	emclip_enable_hotkeys();
+	emclip_set_paste_callback(myPaste, nullptr);
+	emclip_set_copy_callback(myCopy, nullptr);
+	#endif
 	return SDL_APP_CONTINUE;
 }
 
@@ -210,6 +273,17 @@ SDL_AppResult SDL_AppIterate(void *appstate)
 	gamePreUpdate(Game);
 	gameUpdate(Game);
 	gamePostUpdate(Game);
+
+	#ifdef __EMSCRIPTEN__
+	if(clipboard_freeLaterTimer > 0) {
+		clipboard_freeLaterTimer--;
+		if(clipboard_freeLater && clipboard_freeLaterTimer == 0) {
+			SDL_free(clipboard_freeLater);
+			clipboard_freeLater = nullptr;
+		}
+	}
+	#endif
+
 	return SDL_APP_CONTINUE;
 }
 
@@ -224,6 +298,7 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)
 
 	if(event->type == SDL_EVENT_KEY_DOWN) gui_handle_key_down(*event, Gui);
 	if(event->type == SDL_EVENT_TEXT_INPUT) gui_handle_text_input(*event, Gui);
+
 	return gameHandleEvent(Game, event);
 }
 
@@ -237,4 +312,6 @@ void SDL_AppQuit(void *appstate, SDL_AppResult result)
 	(void)appstate;
 	(void)result;
 	// TODO write backups to prefs path
+	SDL_Log("quitting");
+	recentsFileSave(&globalFileContext->recents, globalFileContext->recents.filename);
 }

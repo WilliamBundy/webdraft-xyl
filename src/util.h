@@ -317,9 +317,9 @@ int endsWith(const char* a, const char* s, size_t slen)
 
 
 static inline
-size_t getFilenameStart(const char* filename, size_t len)
+size_t getFilenameStart(const char* filename, int len)
 {
-	while(--len >= 0) {
+	while(--len >= 0 ) {
 		if(filename[len] == '/' || filename[len] == '\\') {
 			return len + 1;
 		}

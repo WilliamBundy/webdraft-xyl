@@ -6,6 +6,7 @@
 #include "util.h"
 
 #include "drawtext.h"
+void globalSaveDraftBoard();
 
 int playerFileSave(LoadedFileInfo* fileinfo, const char* path) 
 {
@@ -19,12 +20,14 @@ int playerFileSave(LoadedFileInfo* fileinfo, const char* path)
 		}
 	}
 
+	#ifndef __EMSCRIPTEN__
 	if(!fileinfo->backupFile) {
 		const char* backup = getBackupPath(fileinfo->filename, "players");
 		fileinfo->backupFile = backup;
 	}
 	SDL_Log("saving %s", fileinfo->filename);
 	SDL_CopyFile(fileinfo->filename, fileinfo->backupFile);
+	#endif
 	fileinfo->wasEdited = false;
 	return playerdbSave(state->playerdb, fileinfo->filename);
 }
@@ -51,7 +54,6 @@ int playerFileLoad(LoadedFileInfo* fileinfo, const char* path)
 void setupPlayerFile(PlayerEditState* state, LoadedFileInfo* fileinfo, const char* filename)
 {
 	fileinfo->userdata = state;
-
 	fileinfo->save = playerFileSave;
 	fileinfo->load = playerFileLoad;
 	fileinfo->extension = "wdplayers";
@@ -217,15 +219,18 @@ void playerState_update(GameState* base, GameContext* game)
 		}
 	}
 
-	#ifndef __EMSCRIPTEN__
 	if(uiButton(0, "Save")) {
 		playerState_updateDatabaseFromTray(state);
 		if(!state->gotFilename) {
 			openFileDialog(FileDialog_Save, state->playerFile, 0);
 		} else {
 			fileinfoSave(state->playerFile);
+
 		}
+		globalSaveDraftBoard();
 	}
+
+	#ifndef __EMSCRIPTEN__
 	if(uiButton(0, "Save As")) {
 		playerState_updateDatabaseFromTray(state);
 		openFileDialog(FileDialog_Save, state->playerFile, 0);
@@ -286,6 +291,10 @@ void playerState_update(GameState* base, GameContext* game)
 	wasChanged |= trayContextUpdate(state->trx);
 	if(wasChanged) {
 		playerState_updateDatabaseFromTray(state);
+		#ifdef __EMSCRIPTEN__
+		fileinfoSave(state->playerFile);
+		globalSaveDraftBoard();
+		#endif
 	}
 
 }
