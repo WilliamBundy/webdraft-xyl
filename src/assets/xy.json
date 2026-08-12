@@ -10936,6 +10936,121 @@
       "abilities": [
         "None"
       ]
+    },
+    "Rotom-W": {
+      "name": "Rotom-W",
+      "number": 485,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Water"
+      ],
+      "stats": [
+        50,
+        65,
+        107,
+        105,
+        107,
+        86
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Rotom-H": {
+      "name": "Rotom-H",
+      "number": 486,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Fire"
+      ],
+      "stats": [
+        50,
+        65,
+        107,
+        105,
+        107,
+        86
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Rotom-F": {
+      "name": "Rotom-F",
+      "number": 487,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Ice"
+      ],
+      "stats": [
+        50,
+        65,
+        107,
+        105,
+        107,
+        86
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Rotom-M": {
+      "name": "Rotom-M",
+      "number": 488,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Grass"
+      ],
+      "stats": [
+        50,
+        65,
+        107,
+        105,
+        107,
+        86
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
+    },
+    "Rotom-Fan": {
+      "name": "Rotom-Fan",
+      "number": 489,
+      "preevolution": "",
+      "types": [
+        "Electric",
+        "Flying"
+      ],
+      "stats": [
+        50,
+        65,
+        107,
+        105,
+        107,
+        86
+      ],
+      "moves": [
+        "None"
+      ],
+      "abilities": [
+        "None"
+      ]
     }
   },
   "moves": {
