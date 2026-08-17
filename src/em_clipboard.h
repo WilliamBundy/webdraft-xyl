@@ -24,9 +24,13 @@ void emclip_enable_hotkeys()
 {
 	EM_ASM({
 		window.addEventListener('keydown', function(event){
-			if (event.ctrlKey && event.key == 'c')    
+			if (event.ctrlKey && event.key == 'c')
 				event.stopImmediatePropagation();
 			if (event.ctrlKey && event.key == 'v')    
+				event.stopImmediatePropagation();
+			if (event.metaKey && event.key == 'c')
+				event.stopImmediatePropagation();
+			if (event.metaKey && event.key == 'v')    
 				event.stopImmediatePropagation();
 		}, true);
 	});

@@ -1,1 +1,1 @@
-emcc -DWB_GAMEMATH__LIBC -std=gnu23 -I../webdraft/emscripten/SDL/include -g src/main.c -L../webdraft/emscripten -lSDL3 -lidbfs.js -o bin-web/webdraft.html --shell-file shell_minimal.html -sEXPORTED_RUNTIME_METHODS=ccall -sALLOW_MEMORY_GROWTH
+emcc -DWB_GAMEMATH__LIBC -std=gnu23 -I../emsdk/libs/SDL/include -g src/main.c -L../emsdk/libs/SDL/embuild/Release -lSDL3 -lidbfs.js -o bin-web/webdraft.html --shell-file shell_minimal.html -sEXPORTED_RUNTIME_METHODS=ccall -sALLOW_MEMORY_GROWTH

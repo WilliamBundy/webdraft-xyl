@@ -1,35 +1,87 @@
-,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1
-,Mega Charizard Y,Dragonite,Salamence,Greninja,Aerodactyl,Mega Manectric,Mega Pinsir,Roserade,Mega Absol,Medicham,Vanilluxe,Granbull,Gigalith,Hippowdon,Pinsir,Abomasnow,Houndoom,Ampharos,Linoone,Farfetch'd
-,Mega Kangaskhan,Zapdos,Gyarados,Gengar,Mega Blastoise,Gardevoir,Mega Scizor,Blastoise,Mega Medicham,Heracross,Shedinja,Mega Banette,Absol,Simisage,Volbeat,Manectric,Arbok,Butterfree,Aggron,Dunsparce
-,Mega Gengar,Talonflame,Mega Gyarados,Volcanion,Torkoal,Scizor,Politoed,Mega Aggron,Florges,Mega Abomasnow,Banette,Tauros,Delphox,Chesnaught,Simisear,Simipour,Mawile,Pikachu,Wormadam Grass,Beedrill
-,Mega Mawile,Mega Tyranitar,Mega Venusaur,Mega Garchomp,Azumarill,Goodra,Venusaur,Kingdra,Mega Alakazam,Bellossom,Raichu,Pyroar,Diggersby,Mega Houndoom,Masquerain,Sharpedo,Golduck,Krokorok,Wormadam Trash,Mothim
-,Aegislash,Mega Gardevoir,Mega Aerodactyl,Sylveon,Diancie,Scrafty,Krookodile,Mega Heracross,Vivilion,Crawdaunt,Vileplume,Charizard,Aurorus,Mightyena,Vespiquen,Scraggy,Gogoat,Swalot,Seaking,Wormadam Sandy
-,Garchomp,Mega Lucario,Meowstic M,Pelipper,Mega Charizard X,Hydreigon,Hoopa,Minun,Staraptor,Gallade,Mega Ampharos,Scolipede,Delcatty,Plusle,Pangoro,Qwilfish,Furfrou,Slurpuff,Bibarel,Sentret
-,Tyranitar,,Conkeldurr,Mienshao,Hariyama,Illumise,Jumpluff,Alakazam,Victreebel,Ledian,Aromatisse,Toxicroak,Dodrio,Kecleon,Drifblim,Audino,Swanna,Mienfoo,Pidgeot,Hippopatos
-,Smeargle,,,,,Crobat,Snorlax,Lucario,Rhyperior,Meowstic F,Heliolisk,Machamp,Doublade,Dragalge,Steelix,Fletchinder,Exploud,Zangoose,Staravia,Rhyhorn
-,,,,,,Starmie,Hawlucha,Golurk,Marowak,Haxorus,Rhydon,Sigilyph,Cloyster,,Yanmega,Malamar,Grumpig,Solrock,Riolu,Seviper
-,,,,,,,Reuniclus,Chimecho,Vaporeon,Ferrothorn,Kangaskhan,,Duosion,,Sawk,Lunatone,Barbaracle,Swellow,Furret,
-,,,,,,,,,Mr. Mime,Jolteon,Probopass,,,,,Crustle,Tentacruel,Relicanth,Shelgon,
-,,,,,,,,,,Nidoking,Nidoqueen,,,,,Luvdisc,Wailord,Gurdurr,Swoobat,
-,,,,,,,,,,,,,,,,Leafeon,Clawitzer,Flareon,Yanma,
-,,,,,,,,,,,,,,,,Ninjask,Tyrantrum,Emolga,,
-,,,,,,,,,,,,,,,,Throh,Umbreon,Skuntank,,
-,,,,,,,,,,,,,, ,,Wobbufett,,Dedenne,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,, ,,,,,,,
+Banned,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0
+Bunnelby,Aegislash,Talonflame,Volcanion,Greninja,Scrafty,Azumarill,Gardevoir,Roserade,Pyroar,Vivillon,Delphox,Charizard,Delcatty,Diggersby,Pangoro,Chesnaught,Simisear,Butterfree,Frogadier,Quilladin,Chespin
+Zigzagoon,Smeargle,Gyarados,Pelipper,Aerodactyl,Illumise,Crobat,Venusaur,Minun,Lucario,Crawdaunt,Raichu,Dodrio,Hippowdon,Plusle,Volbeat,Fletchinder,Simipour,Golduck,Linoone,Braixen,Fennekin
+Pidgey,Garchomp,Salamence,Zapdos,Sylveon,Mienshao,Diancie,Starmie,Jumpluff,Alakazam,Gallade,Florges,Doublade,Tyrantrum,Vileplume,Dragalge,Simisage,Sharpedo,Kadabra,Pidgeot,Fletchling,Froakie
+Scatterbug,Tyranitar,Amoonguss,Gengar,Hariyama,Goodra,Sableye,Krookodile,Snorlax,Kingdra,Ledian,Bellossom,Scolipede,Sigilyph,Kecleon,Steelix,Masquerain,Gogoat,Furret,Pikachu,Beedrill,Pidgeotto
+Spewpa,M-Charizard Y,Dragonite,Weavile,Chimecho,Ludicolo,Trevenant,Hawlucha,Haxorus,Heliolisk,Blastoise,Shedinja,Toxicroak,Nidoqueen,Cloyster,Aurorus,Vespiquen,Swanna,Slurpuff,Seaking,Bibarel,Pansage
+Caterpie,M-Gengar,M-Venusaur,Conkeldurr,Bisharp,Mamoswine,Chandelure,Reuniclus,Hoopa,Vaporeon,Machamp,Aromatisse,Rhydon,Exeggutor,Umbreon,Leafeon,Furfrou,Exploud,Golbat,Wartortle,Dunsparce,Pansear
+Metapod,M-Kangaskhan,M-Gyarados,M-Aerodactyl,Torkoal,Hydreigon,Electrode,Flygon,Marowak,Mr. Mime,Kangaskhan,Medicham,Granbull,Lapras,Heracross,Glaceon,Scraggy,Grumpig,Zangoose,Swalot,Wormadam,Panpour
+Weedle,M-Tyranitar,M-Lucario,Rotom-H,Gothitelle,M-Charizard X,Scizor,Politoed,Golurk,Escavalier,Ferrothorn,Rhyperior,Espeon,Drapion,Slowbro,Yanmega,Ninjask,Malamar,Solrock,Audino,Mothim,Corphish
+Kakuna,M-Gardevoir,Rotom-W,Meowst.M,M-Garchomp,Rotom-Fan,M-Blastoise,M-Pinsir,Staraptor,Victreebel,Probopass,Jolteon,Gigalith,Liepard,Slowking,Sawk,Drifblim,Tentacruel,Swellow,Fraxure,Farfetch'D,Goldeen
+Pichu,M-Mawile,,,,,M-Scizor,M-Manectric,Moltres,Klefki,Articuno,Nidoking,Murkrow,Durant,Mantine,Carbink,Absol,Wailord,Barbaracle,Relicanth,Riolu,Carvanha
+Bidoof,,,,,,Rotom-F,Rotom-M,Floatzel,Noivern,Magnezone,Tauros,Banette,Huntail,Pinsir,Lunatone,Houndoom,Clawitzer,Krokorok,Floette,Litleo
+Azurill,,,,,,,,M-Heracross,M-Aggron,Beartic,Pachirisu,Rotom,Zoroark,Mightyena,Dugtrio,Crustle,Duosion,Swoobat,Machoke,Roselia,Psyduck
+Marill,,,,,,,,,M-Absol,M-Alakazam,Druddigon,Vanilluxe,Ursaring,Sneasel,Accelgor,Luvdisc,Gorebyss,Mawile,Emolga,Ledyba,Flabebe
+Burmy,,,,,,,,,,M-Medicham,M-Abomasnow,Scyther,M-Ampharos,Skarmory,Haunter,Qwilfish,Quagsire,Yanma,Dedenne,Skitty,Bulbasaur
+Surskit,,,,,,,,,,Meowst.F,,Basc.R,Gourg.S,Ditto,Avalugg,Manectric,Arbok,Miltank,Wobbuffet,Ivysaur,Charmander
+Magikarp,,,,,,,,,,,,,,M-Houndoom,Gliscor,Flareon,Honchkrow,Ampharos,Chatot,Charmeleon,Skiddo
+Ralts,,,,,,,,,,,,,,M-Banette,Wigglytuff,Throh,Magneton,Alomomola,Clamperl,Squirtle,Pancham
+Kirlia,,,,,,,,,,,,,,Gourg.Xl,Sudowoodo,Skuntank,Aggron,Golem,Octillery,Gloom,Doduo
+Budew,,,,,,,,,,,,,,Basc.B,Lickilicky,Lanturn,Ariados,Poliwrath,Gabite,Sentret,Gulpin
+Combee,,,,,,,,,,,,,,,Gourg.L,Piloswine,,Whiscash,Magcargo,Espurr,Abra
+Nincada,,,,,,,,,,,,,,,,Jynx,,Foongus,Sliggoo,Honedge,Oddish
+Meowstic,,,,,,,,,,,,,,,,Sandslash,,Garbodor,Carnivine,Whirlipede,Ducklett
+Venipede,,,,,,,,,,,,,,,,Cryogonal,,Abomasnow,Lombre,Croagunk,Swirlix
+Hoppip,,,,,,,,,,,,,,,,Gligar,,Gurdurr,Heatmor,Spritzee,Munchlax
+Whismur,,,,,,,,,,,,,,,,Gourg.M,,Gothorita,Fearow,Skiploom,Loudred
+Zubat,,,,,,,,,,,,,,,,,,,Jigglypuff,Meditite,Axew
+Inkay,,,,,,,,,,,,,,,,,,,Altaria,Mienfoo,Drifloon
+Wingull,,,,,,,,,,,,,,,,,,,,Seviper,Spoink
+Taillow,,,,,,,,,,,,,,,,,,,,Shelgon,Bagon
+Horsea,,,,,,,,,,,,,,,,,,,,Dwebble,Binacle
+Sandile,,,,,,,,,,,,,,,,,,,,Seadra,Tentacool
+Helioptile,,,,,,,,,,,,,,,,,,,,Rhyhorn,Wailmer
+Electrike,,,,,,,,,,,,,,,,,,,,Cubone,Skrelp
+Makuhita,,,,,,,,,,,,,,,,,,,,Tyrunt,Clauncher
+Starly,,,,,,,,,,,,,,,,,,,,Nosepass,Staryu
+Nidoran F,,,,,,,,,,,,,,,,,,,,Staravia,Shellder
+Nidoran M,,,,,,,,,,,,,,,,,,,,Mime Jr.,Hippopotas
+Chingling,,,,,,,,,,,,,,,,,,,,Boldore,Onix
+Solosis,,,,,,,,,,,,,,,,,,,,Mantyke,Woobat
+Wynaut,,,,,,,,,,,,,,,,,,,,Corsola,Machop
+Roggenrola,,,,,,,,,,,,,,,,,,,,Diglett,Amaura
+Mareep,,,,,,,,,,,,,,,,,,,,Trapinch,Ferroseed
+Slugma,,,,,,,,,,,,,,,,,,,,Graveler,Snubbull
+Wooper,,,,,,,,,,,,,,,,,,,,Shuckle,Houndour
+Barboach,,,,,,,,,,,,,,,,,,,,Weepinbell,Eevee
+Poochyena,,,,,,,,,,,,,,,,,,,,Poliwhirl,Golett
+Patrat,,,,,,,,,,,,,,,,,,,,Ekans,Stunky
+Gourgeist,,,,,,,,,,,,,,,,,,,,Stunfisk,Nidorina
+Litwick,,,,,,,,,,,,,,,,,,,,Purrloin,Nidorino
+Swinub,,,,,,,,,,,,,,,,,,,,Watchog,Flaaffy
+Spinarak,,,,,,,,,,,,,,,,,,,,Snover,Slowpoke
+Spearow,,,,,,,,,,,,,,,,,,,,Delibird,Exeggcute
+Noibat,,,,,,,,,,,,,,,,,,,,Aron,Remoraid
+Hoothoot,,,,,,,,,,,,,,,,,,,,Lairon,Chinchou
+Igglybuff,,,,,,,,,,,,,,,,,,,,Pupitar,Vibrava
+Shuppet,,,,,,,,,,,,,,,,,,,,Noctowl,Gible
+Bonsly,,,,,,,,,,,,,,,,,,,,Gothita,Geodude
+Dratini,,,,,,,,,,,,,,,,,,,,Spinda,Skorupi
+Xerneas,,,,,,,,,,,,,,,,,,,,Lickitung,Goomy
+Yveltal,,,,,,,,,,,,,,,,,,,,Zweilous,Karrablast
+Zygarde,,,,,,,,,,,,,,,,,,,,Dragonair,Shelmet
+Mewtwo,,,,,,,,,,,,,,,,,,,,,Bellsprout
+M-Mewtwo X,,,,,,,,,,,,,,,,,,,,,Gastly
+M-Mewtwo Y,,,,,,,,,,,,,,,,,,,,,Poliwag
+M-Blaziken,,,,,,,,,,,,,,,,,,,,,Pawniard
+,,,,,,,,,,,,,,,,,,,,,Lotad
+,,,,,,,,,,,,,,,,,,,,,Buizel
+,,,,,,,,,,,,,,,,,,,,,Phantump
+,,,,,,,,,,,,,,,,,,,,,Pumpkaboo
+,,,,,,,,,,,,,,,,,,,,,Lampent
+,,,,,,,,,,,,,,,,,,,,,Magnemite
+,,,,,,,,,,,,,,,,,,,,,Voltorb
+,,,,,,,,,,,,,,,,,,,,,Trubbish
+,,,,,,,,,,,,,,,,,,,,,Bergmite
+,,,,,,,,,,,,,,,,,,,,,Cubchoo
+,,,,,,,,,,,,,,,,,,,,,Smoochum
+,,,,,,,,,,,,,,,,,,,,,Vanillite
+,,,,,,,,,,,,,,,,,,,,,Vanillish
+,,,,,,,,,,,,,,,,,,,,,Timburr
+,,,,,,,,,,,,,,,,,,,,,Sandshrew
+,,,,,,,,,,,,,,,,,,,,,Larvitar
+,,,,,,,,,,,,,,,,,,,,,Zorua
+,,,,,,,,,,,,,,,,,,,,,Teddiursa
+,,,,,,,,,,,,,,,,,,,,,Swablu
+,,,,,,,,,,,,,,,,,,,,,Deino
+
