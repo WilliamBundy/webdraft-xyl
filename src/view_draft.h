@@ -33,6 +33,7 @@ typedef struct DraftBoardState
 	bool gotFilename;
 	bool draftDirty;
 	bool showRandomControls;
+	bool smallTeams;
 	int resetMode;
 } DraftBoardState;
 

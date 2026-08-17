@@ -207,7 +207,7 @@ GameContext* gameCreate(GameSettings settings)
 
 	int flag = 0;
 	#ifndef __EMSCRIPTEN__
-	flag = SDL_WINDOW_HIDDEN | SDL_WINDOW_HIGH_PIXEL_DENSITY;
+	flag = SDL_WINDOW_HIDDEN;
 	#endif
 	int flags = flag | SDL_WINDOW_FILL_DOCUMENT;
 	if(settings.bordlessNoMouseStyle) {

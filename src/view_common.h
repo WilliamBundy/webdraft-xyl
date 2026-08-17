@@ -5,6 +5,8 @@
 #include "view_draft.h"
 #include "view_players.h"
 
+#include <stdlib.h>
+
 enum
 {
 	TrayKind_Unknown,

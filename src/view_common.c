@@ -10,9 +10,16 @@
 
 int monTile_draw(float2 pos, GuiTray* tray, GuiTile* tile)
 {
+	float multiplier = 1;
+	if(tray) {
+		multiplier = (tray->userflags & 1) ? 0.5 : 1;
+	}
+
 	Xform camera = Xzero; //tray ? tray->trx->trayCamera : Xzero;
 	SDL_FRect src = getMonRect(tile->id-1);
-	SDL_FRect dst = pXformRect(pos - src.w/2, (float2){src.w, src.h} * 2, camera);
+	float2 srcsize = {src.w, src.h};
+	srcsize *= multiplier;
+	SDL_FRect dst = pXformRect(pos - srcsize * 0.5, srcsize * 2, camera);
 	SDL_RenderTexture(Game->renderer, monTexture, &src, &dst);
 
 	{
@@ -20,17 +27,20 @@ int monTile_draw(float2 pos, GuiTray* tray, GuiTile* tile)
 		MonDef* mon = &globalMonData->mons[id];
 		if(strncmp(mon->name, "M-", 2) == 0) {
 			SDL_FRect nsrc = {0, 144, 16, 16};
-			SDL_FRect ndst = pXformRect(pos + (float2){0, src.h - nsrc.h}, (float2){16, 16}, camera);
+			float2 size = 16.0f * multiplier;
+			SDL_FRect ndst = pXformRect(pos + (float2){0, srcsize.y - nsrc.h}, size, camera);
 			SDL_SetTextureColorMod(Game->texture, 255, 255, 255);
 			SDL_RenderTexture(Game->renderer, Game->texture, &nsrc, &ndst); 
 		}
 	}
 
-	if(tray && (tray->kind != TrayKind_PointTier && tray->kind != TrayKind_DraftBoard)) {
-		char buf[16];
-		SDL_snprintf(buf, 16, "%d", (int)(uint64_t)tile->userdata);
-		drawFloat4AlphaCamera(0, 0.5, (float4){pos.x, pos.y, 16, 16}, camera);
-		drawText(buf, pos, -1, camera);
+	if(multiplier == 1) {
+		if(tray && (tray->kind != TrayKind_PointTier && tray->kind != TrayKind_DraftBoard)) {
+			char buf[16];
+			SDL_snprintf(buf, 16, "%d", (int)(uint64_t)tile->userdata);
+			drawFloat4AlphaCamera(0, 0.5, (float4){pos.x, pos.y, 16, 16}, camera);
+			drawText(buf, pos, -1, camera);
+		}
 	}
 
 	return 0;
@@ -176,7 +186,7 @@ void drawStatBlock(GuiContext* gui, MonDef* mon, float barWidth, int pts)
 
 		gui_popbox(gui);
 	}
-	gui_label_fmt(gui, Gui_Button_Mono, Align_Left, "BST:   %3d, %.1f st/pt", sum, (double)sum / (double)pts);
+	gui_label_fmt(gui, Gui_Button_Mono, Align_Left, "BST:   %3d, %.1f bst/pt", sum, (double)sum / (double)pts);
 
 
 	gui_popbox(gui);

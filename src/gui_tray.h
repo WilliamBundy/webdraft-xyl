@@ -74,6 +74,9 @@ typedef struct GuiTray
 	uint32_t hlColor, bgColor[2], headerColor;
 	uint32_t accentColor;
 	int cameraIndex;
+
+	int userflags;
+	int reserved;
 } GuiTray;
 
 static inline

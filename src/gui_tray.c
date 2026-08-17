@@ -3,6 +3,8 @@
 #include "drawtext.h"
 #include "gui.h"
 
+#include <stdlib.h>
+
 // TODO fix scaling!!! 
 
 GuiTray* createTray(GuiTrayContext* trx, const char* title, int2 gridSize, float2 slotSize)

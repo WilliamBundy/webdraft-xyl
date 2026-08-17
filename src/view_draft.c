@@ -5,6 +5,8 @@
 #include "sprite.h"
 #include "drawtext.h"
 
+#include <stdlib.h>
+
 int draftFileSave(LoadedFileInfo* fileinfo, const char* path)
 {
 	DraftBoardState* state = fileinfo->userdata;
@@ -453,7 +455,12 @@ void draftState_update(GameState* base, GameContext* game)
 			//if(playerdb->players[i].draftOrder != j) continue;
 			GuiTray* tray = state->playerTrays[i];
 			float height = tray->slotSize.y + tray->gutterSize.y;
-			float4 header = {trayPen.x, trayPen.y, 96, height};
+			float width = 96;
+			if(state->smallTeams) {
+				height = tray->slotSize.y;
+				width = 72;
+			}
+			float4 header = {trayPen.x, trayPen.y, width, height};
 
 			int pointsUsed = 0;
 			for(int i = 0; i < tray->numSlots; ++i) {
@@ -472,26 +479,51 @@ void draftState_update(GameState* base, GameContext* game)
 			}
 
 			drawFloat4Camera(color, header, trx->trayCamera[1]);
+			header.xy += 8;
 
 			PlayerTeam* team = &playerdb->players[i];
 
-			wbsf_Scale = 2.0f;
-			if(team->owner.name[0] == 0) {
-				char buf[32];
-				SDL_snprintf(buf, 32, "Team %d", i + 1);
-				drawText(buf, header.xy + 8, 96 - 8, trx->trayCamera[1]);
+			if(!state->smallTeams) {
+				wbsf_Scale = 2.0f;
+				if(team->owner.name[0] == 0) {
+					char buf[32];
+					SDL_snprintf(buf, 32, "Team %d", i + 1);
+					drawText(buf, header.xy, width - 8, trx->trayCamera[1]);
+				} else {
+					drawText(team->owner.name, header.xy, width - 8, trx->trayCamera[1]);
+				}
+				header.y += 32; 
 			} else {
-				drawText(team->owner.name, header.xy + 8, 96 - 8, trx->trayCamera[1]);
+				char buf[32];
+				SDL_snprintf(buf, 32, "%d: ", i + 1);
+				float4 tr = drawText(buf, header.xy, width - 8, trx->trayCamera[1]);
+				header.x += tr.z + 4;
+
+
 			}
 
 
 			char buf[32];
 			SDL_snprintf(buf, 32, "%d,%d", state->board->startingPoints - pointsUsed, tray->gridSize.x - tray->numSlots);
-			drawText(buf, header.xy + 8 + (float2){0, 32}, 96 - 8, trx->trayCamera[1]);
+			drawText(buf, header.xy, width - 8, trx->trayCamera[1]);
 			wbsf_Scale = 1.0f;
-			traySetPos(tray, trayPen + (float2){96, 0});
+			traySetPos(tray, trayPen + (float2){width, 0});
 			tray->flags |= Tray_ReqInclusionBox;
 			tray->inclusionBox = playerBox;
+
+			if(state->smallTeams) {
+				tray->userflags = 1;
+				tray->flags &= ~Tray_ShowGutter & ~Tray_ShowOverlays;
+				tray->slotSize = 32;
+			} else {
+				tray->userflags = 0;
+				tray->flags |= 
+						Tray_HideHeader
+						| Tray_ShowGutter
+						| Tray_ShowOverlays 
+						| Tray_ReqInclusionBox;
+				tray->slotSize = 64;
+			}
 			trayDraw(tray);
 
 
@@ -500,7 +532,9 @@ void draftState_update(GameState* base, GameContext* game)
 			if(i & 1) {
 				tray->flags |= Tray_AltBg;
 			}
-			trayPen.y += height + 16;
+
+			float padding = state->smallTeams ? 8 : 16;
+			trayPen.y += height + padding;
 		}
 
 		SDL_SetRenderClipRect(game->renderer, nullptr);
@@ -588,11 +622,16 @@ void draftState_update(GameState* base, GameContext* game)
 		}
 		#endif
 
-		uiCheckbox(0, &state->showRandomControls, "Enable Randomness Controls");
+		uiCheckbox(0, &state->showRandomControls, "Show random picker");
+		uiCheckbox(0, &state->smallTeams, "Small teams");
 
 		uiPop();
 
 		uiSpacer(32);
+
+		if(state->smallTeams) {
+
+		}
 
 		int wasDropped = trayContextUpdate(trx);
 		if(wasDropped) {
